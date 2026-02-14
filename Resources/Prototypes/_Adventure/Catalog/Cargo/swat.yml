@@ -1,5 +1,5 @@
 - type: cargoProduct
-  id: EngineeringAMEShielding
+  id: SwatArmorCrate
   icon:
     sprite: Clothing/OuterClothing/Armor/heavy.rsi
     state: icon

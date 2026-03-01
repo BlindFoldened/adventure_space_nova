@@ -21,6 +21,9 @@
         whitelist:
           components:
           - GasTank
+        blacklist:
+          components:
+          - Jetpack
     - item: AirTank
       hand:
         emptyLabel: borg-slot-atmospheric-containers-empty
@@ -28,5 +31,8 @@
         whitelist:
           components:
           - GasTank
+        blacklist:
+          components:
+          - Jetpack
   - type: BorgModuleIcon
     icon: { sprite: _Adventure/Interface/Actions/actions_borg.rsi, state: rpd-module }

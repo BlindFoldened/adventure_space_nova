@@ -768,8 +768,11 @@
     - item: RCDRecharging
     - item: BorgFireExtinguisher
     - item: BorgHandheldGPSBasic
+    # - item: GasAnalyzer
+    # - item: HolofanProjectorBorg
+    # были перемещены в атмос модуль.
     - item: GeigerCounter
-    - hand:
+    - hand: #Adventure
         emptyLabel: borg-slot-ame-containers-empty
         emptyRepresentative: AmeJar
         whitelist:

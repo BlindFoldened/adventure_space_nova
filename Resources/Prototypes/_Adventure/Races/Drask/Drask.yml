@@ -24,11 +24,11 @@
             max: 213.15
           damage:
             groups:
-              Burn: -2
+              Burn: -1
             types:
-              Slash: -2
-              Piercing: -2
-              Bloodloss: -2
+              Slash: -1
+              Piercing: -1
+              Bloodloss: -1
 
 - type: entity
   save: false

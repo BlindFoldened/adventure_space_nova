@@ -42,3 +42,6 @@
 # Silicon
 - type: Tag
   id: CleanBot
+
+- type: Tag # Маркирует чертежи сугубо для синдилата
+  id: BlueprintSyndielathe 

@@ -1,0 +1,13 @@
+- type: entity
+  id: PrinterCentComm
+  parent: Printer
+  name: принтер оператора Центкома
+  suffix: AdvPrinter, AdvMapping
+  description: Позволяет печатать документы.
+  components:
+  - type: Lathe
+    producingSound: /Audio/Machines/scanning.ogg
+    idleState: icon
+    runningState: building
+    staticPacks:
+      - AdvPrinterCentComm

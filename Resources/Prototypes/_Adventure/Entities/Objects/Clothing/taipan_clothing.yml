@@ -1,0 +1,416 @@
+- type: entity
+  parent: [ ClothingOuterHardsuitSpatio, BaseSyndicateContraband ]
+  id: ClothingOuterHardsuitCargotechTaipan
+  name: лёгкий скафандр карготехника
+  description: Легковесный скафандр, предназначенный для сложных технических работ в космосе.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/cargotech/hardsuit/outerclothing.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/cargotech/hardsuit/outerclothing.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Radiation: 0.3
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitCargotechTaipan
+
+- type: entity
+  parent: [ ClothingHeadHelmetHardsuitSpatio, BaseSyndicateContraband ]
+  id: ClothingHeadHelmetHardsuitCargotechTaipan
+  name: шлем лёгкого скафандра карготехника
+  description: Прочный шлем, предназначенный для сложных технических работ в космосе.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/cargotech/hardsuit/helmet.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/cargotech/hardsuit/helmet.rsi
+
+- type: entity
+  parent: [ ClothingUniformBase, BaseSyndicateContraband ]
+  id: ClothingUniformJumpsuitCargotechTaipan
+  name: комбинезон карготехника
+  description: Удобный прочный комбинезон. В 2 раза грязнее своей "доброй" алтернативы.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/cargotech/syndie_cargotech.rsi
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpsuitCargotechTaipan
+  result: ClothingUniformJumpsuitCargotechTaipan
+
+- type: entity
+  parent: [ ClothingOuterStorageBase, BaseSyndicateContraband ]
+  id: ClothingOuterApronChefTaipan
+  name: подозрительный фартук
+  suffix: Chef
+  description: Это не каннибализм, если ты ешь тех, кто слабее тебя.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/chef/apron.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/chef/apron.rsi
+  - type: Tag
+    tags:
+    - Apron
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ ClothingUniformBase, BaseSyndicateContraband ]
+  id: ClothingUniformJumpsuitChefTaipan
+  name: униформа су-шефа
+  description: Зависть - это хорошее блюдо, стынущее в трагических попытках догнать отличное.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/chef/chef.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/chef/chef.rsi
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpsuitChefTaipan
+  result: ClothingUniformJumpsuitChefTaipan
+
+- type: entity
+  parent: [ ClothingHeadHatChef, BaseSyndicateContraband ]
+  id: ClothingHeadHatChefTaipan
+  name: поварской колпак
+  description: Колпак, который повара используют чтобы волосы не попадали в еду. Судя по еде они не работают.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/chef/chefhat.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/chef/chefhat.rsi
+
+- type: entity
+  parent: [ ClothingOuterCoatLab, BaseSyndicateContraband ]
+  id: ClothingOuterCoatLabTaipan
+  name: лабораторный халат Interdyne
+  description: Коммерческий халат, защищающий от разливов химикатов.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/medic/labcoat.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/medic/labcoat.rsi
+
+- type: entity
+  parent: [ ClothingUniformBase, BaseSyndicateContraband ]
+  id: ClothingUniformJumpsuitDoctorTaipanTurtle
+  name: водолазка медика Синдиката
+  description: Это комбинезон, носимый теми, кто способен держать пилу в одной руке, а пациента - в другой.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/medic/turtleneck.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/medic/turtleneck.rsi
+
+- type: latheRecipe
+  parent: BaseCommandJumpsuitRecipe
+  id: ClothingUniformJumpsuitDoctorTaipanTurtle
+  result: ClothingUniformJumpsuitDoctorTaipanTurtle
+
+- type: entity
+  parent: [ ClothingHeadHatHardhatBase, BaseSyndicateContraband ]
+  id: ClothingHeadHatHardhatTaipan
+  name: жёлто-красная рабочая каска
+  description: Каска, окрашенная в жёлто-красный цвет, используемая в смертельно-опасных условиях труда для защиты головы. Снабжена встроенным фонариком.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/repairman/hardhat.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/repairman/hardhat.rsi
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband ]
+  id: ClothingOuterHardsuitAtmosTaipan
+  name: скафандр атмосферного инженера Синдиката
+  description: Специальный костюм, защищающий от опасной среды с низким давлением. Имеет тепловую защиту. Теперь в кроваво-красных тонах.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/repairman/hardsuit/outerclothing.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/repairman/hardsuit/outerclothing.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
+  - type: FireProtection
+    reduction: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.8
+        Radiation: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.7
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitAtmosTaipan
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  id: ClothingHeadHelmetHardsuitAtmosTaipan
+  name: шлем скафандра атмосферного инженера Синдиката
+  description: Специальный шлем скафандра, предназначенный для работы в условиях низкого давления и высокой температуры.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/repairman/hardsuit/helmet.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/repairman/hardsuit/helmet.rsi
+  - type: PointLight
+    color: "#a4fef4"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.005
+    coolingCoefficient: 0.005
+  - type: FireProtection
+    reduction: 0.2
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ ClothingOuterStorageFoldableBase, BaseSyndicateContraband ]
+  id: ClothingOuterCoatLabRDTaipan
+  name: лабораторный халат директора исследований
+  description: Изготовленный по специальному заказу лабораторный халат, сочетающий в себе столетия прогресса науки, медицины и ненависти к НТ.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/research_director/labcoat_syndie_rd.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/research_director/labcoat_syndie_rd.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95
+        Heat: 0.95
+        Caustic: 0.65
+        Radiation: 0.9
+
+- type: entity
+  parent: [ ClothingUniformBase, BaseSyndicateContraband ]
+  id: ClothingUniformJumpsuitRDTaipan
+  name: водолазка директора исследований
+  description: Это водолазка, носимая достаточно умными людьми, чтобы достичь должности директора исследований.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/research_director/syndie_rd.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/research_director/syndie_rd.rsi
+
+- type: latheRecipe
+  parent: BaseCommandJumpsuitRecipe
+  id: ClothingUniformJumpsuitRDTaipan
+  result: ClothingUniformJumpsuitRDTaipan
+
+- type: entity
+  parent: [ ClothingNeckBase, BaseSyndicateContraband ]
+  id: ClothingNeckMantleRDTaipan
+  name: мантия директора исследований
+  description: Удобная и шикарная мантия, совмещающая в себе лучшие цвета из мира фармацевтики и разработки.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/research_director/syndie_rdmantle.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/research_director/syndie_rdmantle.rsi
+
+- type: entity
+  parent: [ ClothingHeadBase, BaseSyndicateContraband ]
+  id: ClothingHeadHatBeretRNDTaipan
+  name: берет учёного Синдиката
+  description: Берет, достойный безумных экспериментаторов.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/scientist/beret_scientist.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/scientist/beret_scientist.rsi
+
+- type: latheRecipe
+  parent: BaseCommandHatRecipe
+  id: ClothingHeadHatBeretRNDTaipan
+  result: ClothingHeadHatBeretRNDTaipan
+
+- type: entity
+  parent: [ ClothingOuterCoatRnd, BaseSyndicateContraband ]
+  id: ClothingOuterCoatRNDTaipan
+  name: лабораторный халат учёного Синдиката
+  description: Халат, защищающий от небольших разливов конфиденциальных научных данных. У НТ такого нет.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/scientist/labcoat_syndie_science.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/scientist/labcoat_syndie_science.rsi
+
+- type: entity
+  parent: [ ClothingUniformBase, BaseSyndicateContraband ]
+  id: ClothingUniformJumpsuitScientistTaipan
+  name: комбинезон учёного Синдиката
+  description: Он сделан из специального волокна, которое обеспечивает слабую защиту от взрывов. На нём есть обозначения, указывающие, что носитель является учёным.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/scientist/scientist_syndie.rsi
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpsuitScientistTaipan
+  result: ClothingUniformJumpsuitScientistTaipan
+
+- type: entity
+  parent: [ ClothingHeadHatHardhatArmored, BaseSyndicateContraband ]
+  id: ClothingHeadHatHardhatReinforced
+  name: укреплённая рабочая каска
+  description: Укреплённая пласталью каска. Обеспечивает лучшее из двух миров в плане защиты и практичности — идеально подходит для инженера с передовой.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/technical_director/hardhat.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/technical_director/hardhat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.8
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband ]
+  id: ClothingOuterHardsuitTechnicalDirector
+  name: скафандр руководителя техобеспечения
+  description: Специальный костюм, защищающий от опасной среды с низким давлением, сделанный специально для руководителя техобеспечения.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/technical_director/hardsuit/outerclothing.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/technical_director/hardsuit/outerclothing.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: FireProtection
+    reduction: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.4
+        Radiation: 0.0
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTechnicalDirector
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  id: ClothingHeadHelmetHardsuitTechnicalDirector
+  name: шлем скафандра руководителя техобеспечения
+  description: Специальный шлем скафандра, изготовленный для руководителя техобеспечения.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/technical_director/hardsuit/helmet.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/technical_director/hardsuit/helmet.rsi
+  - type: PointLight
+    color: "#a4fef4"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: FireProtection
+    reduction: 0.2
+  - type: Tag
+    tags:
+    - CorgiWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ ClothingNeckBase, BaseSyndicateContraband ]
+  id: ClothingNeckMantleTechnicalDirector
+  name: мантия руководителя техобеспечения
+  description: Создана для настоящих гладиаторов космического пространства.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/technical_director/syndie_cemantle.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/technical_director/syndie_cemantle.rsi
+
+- type: entity
+  parent: [ ClothingHeadBase, BaseSyndicateContraband ]
+  id: ClothingHeadHatCapTO
+  name: фуражка офицера телекоммуникаций
+  description: Прочная форменная фуражка офицера телекоммуникаций. Напоминает рядовым офицерам, кто здесь главный.
+  components:
+    - type: Sprite
+      sprite: _Adventure/Objects/Clothing/taipan/telecom_officer/cap.rsi
+    - type: Clothing
+      sprite: _Adventure/Objects/Clothing/taipan/telecom_officer/cap.rsi
+
+- type: latheRecipe
+  parent: BaseCommandHatRecipe
+  id: ClothingHeadHatCapTO
+  result: ClothingHeadHatCapTO
+
+- type: entity
+  parent: [ ClothingOuterStorageBase, BaseSyndicateContraband ]
+  id: ClothingOuterCoatTO
+  name: куртка офицера телекоммуникаций
+  description: Роскошная куртка сильных сия Синдиката, инкрустированная золотом.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/telecom_officer/coat.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/telecom_officer/coat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.6
+        Heat: 0.5
+
+- type: entity
+  parent: [ ClothingUniformBase, BaseSyndicateContraband ]
+  id: ClothingUniformJumpsuitTO
+  name: водолазка офицера телекоммуникаций
+  description: Это водолазка, носимая теми, кто достаточно силён и дисциплинирован, чтобы руководить теми, кто этому сопротивляется.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Clothing/taipan/telecom_officer/turtleneck.rsi
+  - type: Clothing
+    sprite: _Adventure/Objects/Clothing/taipan/telecom_officer/turtleneck.rsi
+
+- type: latheRecipe
+  parent: BaseCommandJumpsuitRecipe
+  id: ClothingUniformJumpsuitTO
+  result: ClothingUniformJumpsuitTO

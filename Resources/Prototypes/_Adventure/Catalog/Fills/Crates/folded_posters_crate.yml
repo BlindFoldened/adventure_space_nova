@@ -1,0 +1,71 @@
+- type: entityTable
+  id: LegalPostersTable
+  table: !type:GroupSelector
+    children:
+    - id: PosterFoldedLegitHereForYourSafety
+    - id: PosterFoldedLegitNanotrasenLogo
+    - id: PosterFoldedLegitBuild
+    - id: PosterFoldedLegitBlessThisSpess
+    - id: PosterFoldedLegitScience
+    - id: PosterFoldedLegitIan
+    - id: PosterFoldedLegitObey
+    - id: PosterFoldedLegitWalk
+    - id: PosterFoldedLegitStateLaws
+    - id: PosterFoldedLegitLoveIan
+    - id: PosterFoldedLegitSpaceCops
+    - id: PosterFoldedLegitUeNo
+    - id: PosterFoldedLegitGetYourLEGS
+    - id: PosterFoldedLegitDoNotQuestion
+    - id: PosterFoldedLegitWorkForAFutur
+    - id: PosterFoldedLegitSoftCapPopArt
+    - id: PosterFoldedLegitSafetyInternals
+    - id: PosterFoldedLegitSafetyEyeProtection
+    - id: PosterFoldedLegitSafetyReport
+    - id: PosterFoldedLegitReportCrimes
+    - id: PosterFoldedLegitFoamForceAd
+    - id: PosterFoldedLegitCohibaRobustoAd
+    - id: PosterFoldedLegit50thAnniversaryVintageReprint
+    - id: PosterFoldedLegitFruitBowl
+    - id: PosterFoldedLegitPDAAd
+    - id: PosterFoldedLegitEnlist
+    - id: PosterFoldedLegitNanomichiAd
+    - id: PosterFoldedLegit12Gauge
+    - id: PosterFoldedLegitHighClassMartini
+    - id: PosterFoldedLegitTheOwl
+    - id: PosterFoldedLegitNoERP
+    - id: PosterFoldedLegitCarbonDioxide
+    - id: PosterFoldedLegitDickGumshue
+    - id: PosterFoldedLegitThereIsNoGasGiant
+    - id: PosterFoldedLegitJustAWeekAway
+    - id: PosterFoldedLegitSecWatch
+    - id: PosterFoldedLegitAnatomyPoster
+    - id: PosterFoldedLegitMime
+    - id: PosterFoldedLegitCarpMount
+    - id: PosterFoldedLegitSafetyMothDelam
+    - id: PosterFoldedLegitSafetyMothEpi
+    - id: PosterFoldedLegitSafetyMothPiping
+    - id: PosterFoldedLegitSafetyMothMeth
+    - id: PosterFoldedLegitSafetyMothHardhat
+    - id: PosterFoldedLegitVacation
+    - id: PosterFoldedLegitPeriodicTable
+    - id: PosterFoldedLegitRenault
+    - id: PosterFoldedLegitNTTGC
+    - id: PosterFoldedLegitSafetyMothSSD
+    - id: PosterFoldedLegitOppenhopper
+    - id: PosterFoldedLegitTyrone
+    - id: PosterFoldedLegitBotanyFear
+    - id: PosterFoldedLegitZhuzhasi
+    - id: PosterFoldedLegitNabeg
+
+- type: entity
+  parent: CrateGenericSteel
+  id: CratePosters
+  name: ящик постеров
+  description: Набор разнообразных постеров для украшения вашей станции!
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LegalPostersTable
+        rolls: !type:ConstantNumberSelector
+          value: 8

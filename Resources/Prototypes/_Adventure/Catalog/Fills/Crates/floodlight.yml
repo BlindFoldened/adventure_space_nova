@@ -1,0 +1,11 @@
+- type: entity
+  id: ADVCrateEngineeringFloodlight
+  parent: CrateEngineeringSecure
+  name: ящик с прожектором
+  description: Ящик, содержащий переносной прожектор с установленными на него мощными фонарями.
+  suffix: Small, Secure
+  components:
+  - type: StorageFill
+    contents:
+      - id: Floodlight
+        amount: 1

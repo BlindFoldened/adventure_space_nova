@@ -8,6 +8,8 @@
   - type: Sprite
     sprite: _Adventure/Structures/posters.rsi
     state: Uzhasi
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitZhuzhasi
 
 - type: entity
   parent: PosterBase
@@ -19,6 +21,8 @@
   - type: Sprite
     sprite: _Adventure/Structures/posters.rsi
     state: erp
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandERP
 
 - type: entity
   parent: PosterBase
@@ -30,6 +34,8 @@
   - type: Sprite
     sprite: _Adventure/Structures/posters.rsi
     state: admin
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandAdmin
 
 - type: entity
   parent: PosterBase
@@ -41,6 +47,8 @@
   - type: Sprite
     sprite: _Adventure/Structures/posters.rsi
     state: nabeg
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitNabeg
 
 - type: entity
   parent: PosterBase
@@ -52,3 +60,5 @@
   - type: Sprite
     sprite: _Adventure/Structures/posters.rsi
     state: nuke
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandNuke

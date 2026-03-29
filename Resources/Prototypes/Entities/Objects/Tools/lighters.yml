@@ -12,6 +12,7 @@
       collection: lighterOnSounds
     soundDeactivate:
       collection: lighterOffSounds
+    onActivate: false #Adventure
   - type: ItemToggleMeleeWeapon
     activatedDamage:
         types:
@@ -150,6 +151,7 @@
       path: /Audio/Items/Lighters/zippo_close.ogg
       params:
         volume: -5
+    onActivate: false #Adventure
   - type: ItemToggleMeleeWeapon
     activatedDamage:
         types:
@@ -251,6 +253,7 @@
       path: /Audio/Items/Lighters/zippo_close.ogg
       params:
         volume: -5
+    onActivate: false #Adventure
   - type: ItemToggleMeleeWeapon
     activatedDamage:
         types:

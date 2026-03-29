@@ -1,0 +1,1049 @@
+- type: entity
+  id: BasePosterFolded
+  parent: BaseItem
+  description: Скрученный плакат с ярким содержимым.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Fun/folded_poster.rsi
+    state: icon
+  - type: Item
+    sprite: _Adventure/Objects/Fun/folded_poster.rsi
+    size: Normal
+    shape:
+    - 0,0,2,0
+  - type: Poster
+    prototype: PosterLegit12Gauge
+    doAfter: 1
+    removeOnInteract: true
+  - type: Clickable
+
+#region Illegal Folded Posters
+
+- type: entity
+  id: PosterFoldedContrabandFreeTonto
+  parent: BasePosterFolded
+  name: свернутый постер "Свободный Тонто"
+  components:
+  - type: Poster
+    prototype: PosterContrabandFreeTonto
+
+- type: entity
+  id: PosterFoldedContrabandAtmosiaDeclarationIndependence
+  parent: BasePosterFolded
+  name: свернутый постер "Декларация независимости Атмосии"
+  components:
+  - type: Poster
+    prototype: PosterContrabandAtmosiaDeclarationIndependence
+
+- type: entity
+  id: PosterFoldedContrabandFunPolice
+  parent: BasePosterFolded
+  name: свернутый постер "Шуты в СБ"
+  components:
+  - type: Poster
+    prototype: PosterContrabandFunPolice
+
+- type: entity
+  id: PosterFoldedContrabandRealExomorph
+  parent: BasePosterFolded
+  name: свернутый постер "Экзоморфы — факт!"
+  components:
+  - type: Poster
+    prototype: PosterContrabandRealExomorph
+
+- type: entity
+  id: PosterFoldedContrabandSyndicateRecruitment
+  parent: BasePosterFolded
+  name: свернутый постер "Вступайте в Синдикат"
+  components:
+  - type: Poster
+    prototype: PosterContrabandSyndicateRecruitment
+
+- type: entity
+  id: PosterFoldedContrabandClown
+  parent: BasePosterFolded
+  name: свернутый постер "Клоун"
+  components:
+  - type: Poster
+    prototype: PosterContrabandClown
+
+- type: entity
+  id: PosterFoldedContrabandSmoke
+  parent: BasePosterFolded
+  name: свернутый постер "Кури"
+  components:
+  - type: Poster
+    prototype: PosterContrabandSmoke
+
+- type: entity
+  id: PosterFoldedContrabandGreyTide
+  parent: BasePosterFolded
+  name: свернутый постер "Грейтайд"
+  components:
+  - type: Poster
+    prototype: PosterContrabandGreyTide
+
+- type: entity
+  id: PosterFoldedContrabandMissingGloves
+  parent: BasePosterFolded
+  name: свернутый постер "Пропавшие перчатки"
+  components:
+  - type: Poster
+    prototype: PosterContrabandMissingGloves
+
+- type: entity
+  id: PosterFoldedContrabandHackingGuide
+  parent: BasePosterFolded
+  name: свернутый постер "Руководство по взлому"
+  components:
+  - type: Poster
+    prototype: PosterContrabandHackingGuide
+
+- type: entity
+  id: PosterFoldedContrabandAmbrosiaVulgaris
+  parent: BasePosterFolded
+  name: свернутый постер "Амброзия Вульгарис"
+  components:
+  - type: Poster
+    prototype: PosterContrabandAmbrosiaVulgaris
+
+- type: entity
+  id: PosterFoldedContrabandEAT
+  parent: BasePosterFolded
+  name: свернутый постер "ЕШЬ"
+  components:
+  - type: Poster
+    prototype: PosterContrabandEAT
+
+- type: entity
+  id: PosterFoldedContrabandTools
+  parent: BasePosterFolded
+  name: свернутый постер "Инструменты"
+  components:
+  - type: Poster
+    prototype: PosterContrabandTools
+
+- type: entity
+  id: PosterFoldedContrabandPower
+  parent: BasePosterFolded
+  name: свернутый постер "Мощь"
+  components:
+  - type: Poster
+    prototype: PosterContrabandPower
+
+- type: entity
+  id: PosterFoldedContrabandSpaceCube
+  parent: BasePosterFolded
+  name: свернутый постер "Космический куб"
+  components:
+  - type: Poster
+    prototype: PosterContrabandSpaceCube
+
+- type: entity
+  id: PosterFoldedContrabandCommunistState
+  parent: BasePosterFolded
+  name: свернутый постер "Коммунистическое государство"
+  components:
+  - type: Poster
+    prototype: PosterContrabandCommunistState
+
+- type: entity
+  id: PosterFoldedContrabandLamarr
+  parent: BasePosterFolded
+  name: свернутый постер "Ламарр"
+  components:
+  - type: Poster
+    prototype: PosterContrabandLamarr
+
+- type: entity
+  id: PosterFoldedContrabandBorgFancyv2
+  parent: BasePosterFolded
+  name: свернутый постер "Модные борги, версия 2.0"
+  components:
+  - type: Poster
+    prototype: PosterContrabandBorgFancyv2
+
+- type: entity
+  id: PosterFoldedContrabandRebelsUnite
+  parent: BasePosterFolded
+  name: свернутый постер "Бунтари вместе"
+  components:
+  - type: Poster
+    prototype: PosterContrabandRebelsUnite
+
+- type: entity
+  id: PosterFoldedContrabandC20r
+  parent: BasePosterFolded
+  name: свернутый постер "C-20r"
+  components:
+  - type: Poster
+    prototype: PosterContrabandC20r
+
+- type: entity
+  id: PosterFoldedContrabandHaveaPuff
+  parent: BasePosterFolded
+  name: свернутый постер "Время дунуть"
+  components:
+  - type: Poster
+    prototype: PosterContrabandHaveaPuff
+
+- type: entity
+  id: PosterFoldedContrabandRevolver
+  parent: BasePosterFolded
+  name: свернутый постер "Револьвер"
+  components:
+  - type: Poster
+    prototype: PosterContrabandRevolver
+
+- type: entity
+  id: PosterFoldedContrabandDDayPromo
+  parent: BasePosterFolded
+  name: свернутый постер "Реклама D-Day"
+  components:
+  - type: Poster
+    prototype: PosterContrabandDDayPromo
+
+- type: entity
+  id: PosterFoldedContrabandSyndicatePistol
+  parent: BasePosterFolded
+  name: свернутый постер "Пистолеты Синдиката"
+  components:
+  - type: Poster
+    prototype: PosterContrabandSyndicatePistol
+
+- type: entity
+  id: PosterFoldedContrabandEnergySwords
+  parent: BasePosterFolded
+  name: свернутый постер "Энергомечи"
+  components:
+  - type: Poster
+    prototype: PosterContrabandEnergySwords
+
+- type: entity
+  id: PosterFoldedContrabandRedRum
+  parent: BasePosterFolded
+  name: свернутый постер "ЯНЗЕР"
+  components:
+  - type: Poster
+    prototype: PosterContrabandRedRum
+
+- type: entity
+  id: PosterFoldedContrabandCC64KAd
+  parent: BasePosterFolded
+  name: свернутый постер "Реклама CC 64K"
+  components:
+  - type: Poster
+    prototype: PosterContrabandCC64KAd
+
+- type: entity
+  id: PosterFoldedContrabandPunchShit
+  parent: BasePosterFolded
+  name: свернутый постер "Мочи всех"
+  components:
+  - type: Poster
+    prototype: PosterContrabandPunchShit
+
+- type: entity
+  id: PosterFoldedContrabandTheGriffin
+  parent: BasePosterFolded
+  name: свернутый постер "Гриффин"
+  components:
+  - type: Poster
+    prototype: PosterContrabandTheGriffin
+
+- type: entity
+  id: PosterFoldedContrabandFreeDrone
+  parent: BasePosterFolded
+  name: свернутый постер "Дроны не рабы"
+  components:
+  - type: Poster
+    prototype: PosterContrabandFreeDrone
+
+- type: entity
+  id: PosterFoldedContrabandRouny
+  parent: BasePosterFolded
+  name: свернутый постер "Вы его видели?"
+  components:
+  - type: Poster
+    prototype: PosterContrabandRouny
+
+- type: entity
+  id: PosterFoldedContrabandRobustSoftdrinks
+  parent: BasePosterFolded
+  name: свернутый постер "Robust Softdrinks"
+  components:
+  - type: Poster
+    prototype: PosterContrabandRobustSoftdrinks
+
+- type: entity
+  id: PosterFoldedContrabandShamblersJuice
+  parent: BasePosterFolded
+  name: свернутый постер "Сок Shambler"
+  components:
+  - type: Poster
+    prototype: PosterContrabandShamblersJuice
+
+- type: entity
+  id: PosterFoldedContrabandPwrGame
+  parent: BasePosterFolded
+  name: свернутый постер "Pwr Game"
+  components:
+  - type: Poster
+    prototype: PosterContrabandPwrGame
+
+- type: entity
+  id: PosterFoldedContrabandSunkist
+  parent: BasePosterFolded
+  name: свернутый постер "Sun-kist"
+  components:
+  - type: Poster
+    prototype: PosterContrabandSunkist
+
+- type: entity
+  id: PosterFoldedContrabandSpaceCola
+  parent: BasePosterFolded
+  name: свернутый постер "Космическая Кола"
+  components:
+  - type: Poster
+    prototype: PosterContrabandSpaceCola
+
+- type: entity
+  id: PosterFoldedContrabandSpaceUp
+  parent: BasePosterFolded
+  name: свернутый постер "Space-Up!"
+  components:
+  - type: Poster
+    prototype: PosterContrabandSpaceUp
+
+- type: entity
+  id: PosterFoldedContrabandKudzu
+  parent: BasePosterFolded
+  name: свернутый постер "Кудзу"
+  components:
+  - type: Poster
+    prototype: PosterContrabandKudzu
+
+- type: entity
+  id: PosterFoldedContrabandMaskedMen
+  parent: BasePosterFolded
+  name: свернутый постер "Люди в масках"
+  components:
+  - type: Poster
+    prototype: PosterContrabandMaskedMen
+
+- type: entity
+  id: PosterFoldedContrabandUnreadableAnnouncement
+  parent: BasePosterFolded
+  name: свернутый постер "Нечитабельное объявление"
+  components:
+  - type: Poster
+    prototype: PosterContrabandUnreadableAnnouncement
+
+- type: entity
+  id: PosterFoldedContrabandFreeSyndicateEncryptionKey
+  parent: BasePosterFolded
+  name: свернутый постер "Халявный ключ шифрования Синдиката"
+  components:
+  - type: Poster
+    prototype: PosterContrabandFreeSyndicateEncryptionKey
+
+- type: entity
+  id: PosterFoldedContrabandBountyHunters
+  parent: BasePosterFolded
+  name: свернутый постер "Охотники за головами"
+  components:
+  - type: Poster
+    prototype: PosterContrabandBountyHunters
+
+- type: entity
+  id: PosterFoldedContrabandTheBigGasTruth
+  parent: BasePosterFolded
+  name: свернутый постер "Правда о газовом гиганте"
+  components:
+  - type: Poster
+    prototype: PosterContrabandTheBigGasTruth
+
+- type: entity
+  id: PosterFoldedContrabandWehWatches
+  parent: BasePosterFolded
+  name: свернутый постер "Часы Weh"
+  components:
+  - type: Poster
+    prototype: PosterContrabandWehWatches
+
+- type: entity
+  id: PosterFoldedContrabandVoteWeh
+  parent: BasePosterFolded
+  name: свернутый постер "Голосуйте за Weh"
+  components:
+  - type: Poster
+    prototype: PosterContrabandVoteWeh
+
+- type: entity
+  id: PosterFoldedContrabandBeachStarYamamoto
+  parent: BasePosterFolded
+  name: свернутый постер "Пляжная звезда Ямамото!"
+  components:
+  - type: Poster
+    prototype: PosterContrabandBeachStarYamamoto
+
+- type: entity
+  id: PosterFoldedContrabandHighEffectEngineering
+  parent: BasePosterFolded
+  name: свернутый постер "Высокоэффективная инженерия"
+  components:
+  - type: Poster
+    prototype: PosterContrabandHighEffectEngineering
+
+- type: entity
+  id: PosterFoldedContrabandNuclearDeviceInformational
+  parent: BasePosterFolded
+  name: свернутый постер "Информация о ядерном оружии"
+  components:
+  - type: Poster
+    prototype: PosterContrabandNuclearDeviceInformational
+
+- type: entity
+  id: PosterFoldedContrabandRise
+  parent: BasePosterFolded
+  name: свернутый постер "Бунт"
+  components:
+  - type: Poster
+    prototype: PosterContrabandRise
+
+- type: entity
+  id: PosterFoldedContrabandRevolt
+  parent: BasePosterFolded
+  name: свернутый постер "Революция"
+  components:
+  - type: Poster
+    prototype: PosterContrabandRevolt
+
+- type: entity
+  id: PosterFoldedContrabandMoth
+  parent: BasePosterFolded
+  name: свернутый постер "СиндиМоль — Ядерные операции"
+  components:
+  - type: Poster
+    prototype: PosterContrabandMoth
+
+- type: entity
+  id: PosterFoldedContrabandCybersun600
+  parent: BasePosterFolded
+  name: свернутый постер "Cybersun. 600-ый юбилей компании"
+  components:
+  - type: Poster
+    prototype: PosterContrabandCybersun600
+
+- type: entity
+  id: PosterFoldedContrabandDonk
+  parent: BasePosterFolded
+  name: свернутый постер "ФИРМЕННЫЕ МИКРОВОЛНОВЫЕ ПРОДУКТЫ DONK CO."
+  components:
+  - type: Poster
+    prototype: PosterContrabandDonk
+
+- type: entity
+  id: PosterFoldedContrabandEnlistGorlex
+  parent: BasePosterFolded
+  name: свернутый постер "Идёт набор"
+  components:
+  - type: Poster
+    prototype: PosterContrabandEnlistGorlex
+
+- type: entity
+  id: PosterFoldedContrabandInterdyne
+  parent: BasePosterFolded
+  name: свернутый постер "Interdyne Pharmaceutics. Во имя здоровья человечества"
+  components:
+  - type: Poster
+    prototype: PosterContrabandInterdyne
+
+- type: entity
+  id: PosterFoldedContrabandWaffleCorp
+  parent: BasePosterFolded
+  name: свернутый постер "Waffle Corp. Отличные винтовки, доступные цены"
+  components:
+  - type: Poster
+    prototype: PosterContrabandWaffleCorp
+
+- type: entity
+  id: PosterFoldedContrabandMissingSpacepen
+  parent: BasePosterFolded
+  name: свернутый постер "Пропавший космический медипен"
+  components:
+  - type: Poster
+    prototype: PosterContrabandMissingSpacepen
+
+- type: entity
+  id: PosterFoldedContrabandExoAcid
+  parent: BasePosterFolded
+  name: свернутый постер "Внимание, экзоморфы! Кислотный плевок!"
+  components:
+  - type: Poster
+    prototype: PosterContrabandExoAcid
+
+- type: entity
+  id: PosterFoldedContrabandExoRun
+  parent: BasePosterFolded
+  name: свернутый постер "Внимание, экзоморфы! Убегай!"
+  components:
+  - type: Poster
+    prototype: PosterContrabandExoRun
+
+- type: entity
+  id: PosterFoldedContrabandExoChomp
+  parent: BasePosterFolded
+  name: свернутый постер "Внимание, экзоморфы! Опасные укусы!"
+  components:
+  - type: Poster
+    prototype: PosterContrabandExoChomp
+
+- type: entity
+  id: PosterFoldedContrabandERP
+  parent: BasePosterFolded
+  name: свернутый постер "Скажи "ДА" ЕРП!"
+  components:
+  - type: Poster
+    prototype: PosterContrabandERP
+
+- type: entity
+  id: PosterFoldedContrabandAdmin
+  parent: BasePosterFolded
+  name: свернутый постер "Красный бог следит"
+  components:
+  - type: Poster
+    prototype: PosterContrabandAdmin
+
+- type: entity
+  id: PosterFoldedContrabandNuke
+  parent: BasePosterFolded
+  name: свернутый постер "Раньше было лучше"
+  components:
+  - type: Poster
+    prototype: PosterContrabandNuke
+
+#region Legal Folded Posters
+
+- type: entity
+  id: PosterFoldedLegitHereForYourSafety
+  parent: BasePosterFolded
+  name: свернутый постер "Здесь для вашей безопасности"
+  components:
+  - type: Poster
+    prototype: PosterLegitHereForYourSafety
+
+- type: entity
+  id: PosterFoldedLegitNanotrasenLogo
+  parent: BasePosterFolded
+  name: свернутый постер "Логотип Nanotrasen"
+  components:
+  - type: Poster
+    prototype: PosterLegitNanotrasenLogo
+
+- type: entity
+  id: PosterFoldedLegitBuild
+  parent: BasePosterFolded
+  name: свернутый постер "Строй!"
+  components:
+  - type: Poster
+    prototype: PosterLegitBuild
+
+- type: entity
+  id: PosterFoldedLegitBlessThisSpess
+  parent: BasePosterFolded
+  name: свернутый постер "Боже отсек храни"
+  components:
+  - type: Poster
+    prototype: PosterLegitBlessThisSpess
+
+- type: entity
+  id: PosterFoldedLegitScience
+  parent: BasePosterFolded
+  name: свернутый постер "Наука"
+  components:
+  - type: Poster
+    prototype: PosterLegitScience
+
+- type: entity
+  id: PosterFoldedLegitIan
+  parent: BasePosterFolded
+  name: свернутый постер "Иан"
+  components:
+  - type: Poster
+    prototype: PosterLegitIan
+
+- type: entity
+  id: PosterFoldedLegitObey
+  parent: BasePosterFolded
+  name: свернутый постер "Подчинись"
+  components:
+  - type: Poster
+    prototype: PosterLegitObey
+
+- type: entity
+  id: PosterFoldedLegitWalk
+  parent: BasePosterFolded
+  name: свернутый постер "Ходи"
+  components:
+  - type: Poster
+    prototype: PosterLegitWalk
+
+- type: entity
+  id: PosterFoldedLegitStateLaws
+  parent: BasePosterFolded
+  name: свернутый постер "Закон ИИ"
+  components:
+  - type: Poster
+    prototype: PosterLegitStateLaws
+
+- type: entity
+  id: PosterFoldedLegitLoveIan
+  parent: BasePosterFolded
+  name: свернутый постер "Любовь к Иану"
+  components:
+  - type: Poster
+    prototype: PosterLegitLoveIan
+
+- type: entity
+  id: PosterFoldedLegitSpaceCops
+  parent: BasePosterFolded
+  name: свернутый постер "Космокопы"
+  components:
+  - type: Poster
+    prototype: PosterLegitSpaceCops
+
+- type: entity
+  id: PosterFoldedLegitUeNo
+  parent: BasePosterFolded
+  name: свернутый постер "Ue No"
+  components:
+  - type: Poster
+    prototype: PosterLegitUeNo
+
+- type: entity
+  id: PosterFoldedLegitGetYourLEGS
+  parent: BasePosterFolded
+  name: свернутый постер "Помни про НОГИ"
+  components:
+  - type: Poster
+    prototype: PosterLegitGetYourLEGS
+
+- type: entity
+  id: PosterFoldedLegitDoNotQuestion
+  parent: BasePosterFolded
+  name: свернутый постер "Не спрашивай"
+  components:
+  - type: Poster
+    prototype: PosterLegitDoNotQuestion
+
+- type: entity
+  id: PosterFoldedLegitWorkForAFutur
+  parent: BasePosterFolded
+  name: свернутый постер "Работа на будущее"
+  components:
+  - type: Poster
+    prototype: PosterLegitWorkForAFuture
+
+- type: entity
+  id: PosterFoldedLegitSoftCapPopArt
+  parent: BasePosterFolded
+  name: свернутый постер "Поп-арт с кепками"
+  components:
+  - type: Poster
+    prototype: PosterLegitSoftCapPopArt
+
+- type: entity
+  id: PosterFoldedLegitSafetyInternals
+  parent: BasePosterFolded
+  name: свернутый постер "Техника безопасности. Атмосфера"
+  components:
+  - type: Poster
+    prototype: PosterLegitSafetyInternals
+
+- type: entity
+  id: PosterFoldedLegitSafetyEyeProtection
+  parent: BasePosterFolded
+  name: свернутый постер "Техника безопасности. Защита глаз"
+  components:
+  - type: Poster
+    prototype: PosterLegitSafetyEyeProtection
+
+- type: entity
+  id: PosterFoldedLegitSafetyReport
+  parent: BasePosterFolded
+  name: свернутый постер "Техника безопасности. Донесения"
+  components:
+  - type: Poster
+    prototype: PosterLegitSafetyReport
+
+- type: entity
+  id: PosterFoldedLegitReportCrimes
+  parent: BasePosterFolded
+  name: свернутый постер "Сообщай обо всём!"
+  components:
+  - type: Poster
+    prototype: PosterLegitReportCrimes
+
+- type: entity
+  id: PosterFoldedLegitFoamForceAd
+  parent: BasePosterFolded
+  name: свернутый постер "Реклама "Сила Пены""
+  components:
+  - type: Poster
+    prototype: PosterLegitFoamForceAd
+
+- type: entity
+  id: PosterFoldedLegitCohibaRobustoAd
+  parent: BasePosterFolded
+  name: свернутый постер "Реклама Cohiba Robusto"
+  components:
+  - type: Poster
+    prototype: PosterLegitCohibaRobustoAd
+
+- type: entity
+  id: PosterFoldedLegit50thAnniversaryVintageReprint
+  parent: BasePosterFolded
+  name: свернутый постер "Винтажная перепечатка к 50-летнему юбилею"
+  components:
+  - type: Poster
+    prototype: PosterLegit50thAnniversaryVintageReprint
+
+- type: entity
+  id: PosterFoldedLegitFruitBowl
+  parent: BasePosterFolded
+  name: свернутый постер "Миска с фруктами"
+  components:
+  - type: Poster
+    prototype: PosterLegitFruitBowl
+
+- type: entity
+  id: PosterFoldedLegitPDAAd
+  parent: BasePosterFolded
+  name: свернутый постер "Реклама КПК"
+  components:
+  - type: Poster
+    prototype: PosterLegitPDAAd
+
+- type: entity
+  id: PosterFoldedLegitEnlist
+  parent: BasePosterFolded
+  name: свернутый постер "Вступай!"
+  components:
+  - type: Poster
+    prototype: PosterLegitEnlist
+
+- type: entity
+  id: PosterFoldedLegitNanomichiAd
+  parent: BasePosterFolded
+  name: свернутый постер "Реклама Nanomichi"
+  components:
+  - type: Poster
+    prototype: PosterLegitNanomichiAd
+
+- type: entity
+  id: PosterFoldedLegit12Gauge
+  parent: BasePosterFolded
+  name: свернутый постер "12 калибр"
+  components:
+  - type: Poster
+    prototype: PosterLegit12Gauge
+
+- type: entity
+  id: PosterFoldedLegitHighClassMartini
+  parent: BasePosterFolded
+  name: свернутый постер "Первоклассный мартини"
+  components:
+  - type: Poster
+    prototype: PosterLegitHighClassMartini
+
+- type: entity
+  id: PosterFoldedLegitTheOwl
+  parent: BasePosterFolded
+  name: свернутый постер "Сова"
+  components:
+  - type: Poster
+    prototype: PosterLegitTheOwl
+
+- type: entity
+  id: PosterFoldedLegitNoERP
+  parent: BasePosterFolded
+  name: свернутый постер "Скажи "НЕТ" ЕРП!"
+  components:
+  - type: Poster
+    prototype: PosterLegitNoERP
+
+- type: entity
+  id: PosterFoldedLegitCarbonDioxide
+  parent: BasePosterFolded
+  name: свернутый постер "Углекислый газ"
+  components:
+  - type: Poster
+    prototype: PosterLegitCarbonDioxide
+
+- type: entity
+  id: PosterFoldedLegitDickGumshue
+  parent: BasePosterFolded
+  name: свернутый постер "Дик Гамшу"
+  components:
+  - type: Poster
+    prototype: PosterLegitDickGumshue
+
+- type: entity
+  id: PosterFoldedLegitThereIsNoGasGiant
+  parent: BasePosterFolded
+  name: свернутый постер "Газового гиганта не существует"
+  components:
+  - type: Poster
+    prototype: PosterLegitThereIsNoGasGiant
+
+- type: entity
+  id: PosterFoldedLegitJustAWeekAway
+  parent: BasePosterFolded
+  name: свернутый постер "Всего неделя..."
+  components:
+  - type: Poster
+    prototype: PosterLegitJustAWeekAway
+
+- type: entity
+  id: PosterFoldedLegitSecWatch
+  parent: BasePosterFolded
+  name: свернутый постер "СБ видит"
+  components:
+  - type: Poster
+    prototype: PosterLegitSecWatch
+
+- type: entity
+  id: PosterFoldedLegitAnatomyPoster
+  parent: BasePosterFolded
+  name: свернутый постер "Анатомия спессмена"
+  components:
+  - type: Poster
+    prototype: PosterLegitAnatomyPoster
+
+- type: entity
+  id: PosterFoldedLegitMime
+  parent: BasePosterFolded
+  name: свернутый постер "Мимский постмодерн"
+  components:
+  - type: Poster
+    prototype: PosterLegitMime
+
+- type: entity
+  id: PosterFoldedLegitCarpMount
+  parent: BasePosterFolded
+  name: свернутый постер "Настенный карп"
+  components:
+  - type: Poster
+    prototype: PosterLegitCarpMount
+
+- type: entity
+  id: PosterFoldedLegitSafetyMothDelam
+  parent: BasePosterFolded
+  name: свернутый постер "Ниан-хранитель - Меры безопасности при расслаивании"
+  components:
+  - type: Poster
+    prototype: PosterLegitSafetyMothDelam
+
+- type: entity
+  id: PosterFoldedLegitSafetyMothEpi
+  parent: BasePosterFolded
+  name: свернутый постер "Ниан-хранитель - Эпинефрин"
+  components:
+  - type: Poster
+    prototype: PosterLegitSafetyMothEpi
+
+- type: entity
+  id: PosterFoldedLegitSafetyMothPiping
+  parent: BasePosterFolded
+  name: свернутый постер "Ниан-хранитель - Трубопроводы"
+  components:
+  - type: Poster
+    prototype: PosterLegitSafetyMothPiping
+
+- type: entity
+  id: PosterFoldedLegitSafetyMothMeth
+  parent: BasePosterFolded
+  name: свернутый постер "Ниан-хранитель - Метамфетамин"
+  components:
+  - type: Poster
+    prototype: PosterLegitSafetyMothMeth
+
+- type: entity
+  id: PosterFoldedLegitSafetyMothHardhat
+  parent: BasePosterFolded
+  name: свернутый постер "Ниан-хранитель - Защитные каски"
+  components:
+  - type: Poster
+    prototype: PosterLegitSafetyMothHardhat
+
+- type: entity
+  id: PosterFoldedLegitVacation
+  parent: BasePosterFolded
+  name: свернутый постер "Корпоративные привилегии Nanotrasen. Отпуск"
+  components:
+  - type: Poster
+    prototype: PosterLegitVacation
+
+- type: entity
+  id: PosterFoldedLegitPeriodicTable
+  parent: BasePosterFolded
+  name: свернутый постер "Таблица Менделеева"
+  components:
+  - type: Poster
+    prototype: PosterLegitPeriodicTable
+
+- type: entity
+  id: PosterFoldedLegitRenault
+  parent: BasePosterFolded
+  name: свернутый постер "Плакат с Алисой"
+  components:
+  - type: Poster
+    prototype: PosterLegitRenault
+
+- type: entity
+  id: PosterFoldedLegitNTTGC
+  parent: BasePosterFolded
+  name: свернутый постер "Тактическая карточная игра Nanotrasen"
+  components:
+  - type: Poster
+    prototype: PosterLegitNTTGC
+
+- type: entity
+  id: PosterFoldedLegitSafetyMothSSD
+  parent: BasePosterFolded
+  name: свернутый постер "Ниан-хранитель - Космическое расстройство сна"
+  components:
+  - type: Poster
+    prototype: PosterLegitSafetyMothSSD
+
+- type: entity
+  id: PosterFoldedLegitOppenhopper
+  parent: BasePosterFolded
+  name: свернутый постер "Опергеймер"
+  components:
+  - type: Poster
+    prototype: PosterLegitOppenhopper
+
+- type: entity
+  id: PosterFoldedLegitTyrone
+  parent: BasePosterFolded
+  name: свернутый постер "Путеводитель Тайрона по космосу"
+  components:
+  - type: Poster
+    prototype: PosterLegitTyrone
+
+- type: entity
+  id: PosterFoldedLegitBotanyFear
+  parent: BasePosterFolded
+  name: свернутый постер "Страх гидропоники"
+  components:
+  - type: Poster
+    prototype: PosterLegitBotanyFear
+
+- type: entity
+  id: PosterFoldedLegitZhuzhasi
+  parent: BasePosterFolded
+  name: свернутый постер "Жужасы"
+  components:
+  - type: Poster
+    prototype: PosterLegitZhuzhasi
+
+- type: entity
+  id: PosterFoldedLegitNabeg
+  parent: BasePosterFolded
+  name: свернутый постер "Внимание! росыскивается хулиган"
+  components:
+  - type: Poster
+    prototype: PosterLegitNabeg
+
+#region Maps
+
+- type: entity
+  id: PosterFoldedMapBagel
+  parent: BasePosterFolded
+  name: свернутый постер "карта Bagel"
+  components:
+  - type: Poster
+    prototype: PosterMapBagel
+
+- type: entity
+  id: PosterFoldedMapDelta
+  parent: BasePosterFolded
+  name: свернутый постер "карта Delta"
+  components:
+  - type: Poster
+    prototype: PosterMapDelta
+
+- type: entity
+  id: PosterFoldedMapMarathon
+  parent: BasePosterFolded
+  name: свернутый постер "карта Marathon"
+  components:
+  - type: Poster
+    prototype: PosterMapMarathon
+
+- type: entity
+  id: PosterFoldedMapMoose
+  parent: BasePosterFolded
+  name: свернутый постер "карта Moose"
+  components:
+  - type: Poster
+    prototype: PosterMapMoose
+
+- type: entity
+  id: PosterFoldedMapPacked
+  parent: BasePosterFolded
+  name: свернутый постер "карта Packed"
+  components:
+  - type: Poster
+    prototype: PosterMapPacked
+
+- type: entity
+  id: PosterFoldedMapPillar
+  parent: BasePosterFolded
+  name: свернутый постер "карта Pillar"
+  components:
+  - type: Poster
+    prototype: PosterMapPillar
+
+- type: entity
+  id: PosterFoldedMapSaltern
+  parent: BasePosterFolded
+  name: свернутый постер "карта Saltern"
+  components:
+  - type: Poster
+    prototype: PosterMapSaltern
+
+- type: entity
+  id: PosterFoldedMapSplit
+  parent: BasePosterFolded
+  name: свернутый постер "карта Split Station"
+  components:
+  - type: Poster
+    prototype: PosterMapSplit
+
+- type: entity
+  id: PosterFoldedMapLighthouse
+  parent: BasePosterFolded
+  name: свернутый постер "карта Lighthouse"
+  components:
+  - type: Poster
+    prototype: PosterMapLighthouse
+
+- type: entity
+  id: PosterFoldedMapWaystation
+  parent: BasePosterFolded
+  name: свернутый постер "карта Waystation"
+  components:
+  - type: Poster
+    prototype: PosterMapWaystation
+
+- type: entity
+  id: PosterFoldedMapOrigin
+  parent: BasePosterFolded
+  name: свернутый постер "карта Origin"
+  components:
+  - type: Poster
+    prototype: PosterMapOrigin

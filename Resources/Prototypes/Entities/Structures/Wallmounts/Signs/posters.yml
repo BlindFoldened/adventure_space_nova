@@ -34,6 +34,8 @@
             min: 1
             max: 1
         offset: 0
+  - type: DisassembleOnAltVerb
+    disassembleTime: 1
 
 - type: entity
   parent: BaseSign
@@ -66,6 +68,8 @@
   components:
   - type: Sprite
     state: poster1_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandFreeTonto
 
 - type: entity
   parent: PosterBase
@@ -75,6 +79,8 @@
   components:
   - type: Sprite
     state: poster2_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandAtmosiaDeclarationIndependence
 
 - type: entity
   parent: PosterBase
@@ -84,6 +90,8 @@
   components:
   - type: Sprite
     state: poster3_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandFunPolice
 
 - type: entity
   parent: PosterBase
@@ -93,6 +101,8 @@
   components:
   - type: Sprite
     state: poster4_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandRealExomorph
 
 - type: entity
   parent: PosterBase
@@ -102,6 +112,8 @@
   components:
   - type: Sprite
     state: poster5_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandSyndicateRecruitment
 
 - type: entity
   parent: PosterBase
@@ -111,6 +123,8 @@
   components:
   - type: Sprite
     state: poster6_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandClown
 
 - type: entity
   parent: PosterBase
@@ -120,6 +134,8 @@
   components:
   - type: Sprite
     state: poster7_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandSmoke
 
 - type: entity
   parent: PosterBase
@@ -129,6 +145,8 @@
   components:
   - type: Sprite
     state: poster8_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandGreyTide
 
 - type: entity
   parent: PosterBase
@@ -138,6 +156,8 @@
   components:
   - type: Sprite
     state: poster9_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandMissingGloves
 
 - type: entity
   parent: PosterBase
@@ -147,6 +167,8 @@
   components:
   - type: Sprite
     state: poster10_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandHackingGuide
 
 - type: entity
   parent: PosterBase
@@ -156,6 +178,8 @@
   components:
   - type: Sprite
     state: poster11_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandRIPBadger
 
 - type: entity
   parent: PosterBase
@@ -165,6 +189,8 @@
   components:
   - type: Sprite
     state: poster12_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandAmbrosiaVulgaris
 
 - type: entity
   parent: PosterBase
@@ -174,6 +200,8 @@
   components:
   - type: Sprite
     state: poster13_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandDonutCorp
 
 - type: entity
   parent: PosterBase
@@ -183,6 +211,8 @@
   components:
   - type: Sprite
     state: poster14_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandEAT
 
 - type: entity
   parent: PosterBase
@@ -192,6 +222,8 @@
   components:
   - type: Sprite
     state: poster15_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandTools
 
 - type: entity
   parent: PosterBase
@@ -201,6 +233,8 @@
   components:
   - type: Sprite
     state: poster16_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandPower
 
 - type: entity
   parent: PosterBase
@@ -210,6 +244,8 @@
   components:
   - type: Sprite
     state: poster17_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandSpaceCube
 
 - type: entity
   parent: PosterBase
@@ -219,6 +255,8 @@
   components:
   - type: Sprite
     state: poster18_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandCommunistState
 
 - type: entity
   parent: PosterBase
@@ -228,6 +266,8 @@
   components:
   - type: Sprite
     state: poster19_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandLamarr
 
 - type: entity
   parent: PosterBase
@@ -237,6 +277,8 @@
   components:
   - type: Sprite
     state: poster20_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandLamarr
 
 - type: entity
   parent: PosterBase
@@ -246,6 +288,8 @@
   components:
   - type: Sprite
     state: poster21_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandBorgFancyv2
 
 - type: entity
   parent: PosterBase
@@ -255,6 +299,8 @@
   components:
   - type: Sprite
     state: poster22_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandBorgFancyv2
 
 - type: entity
   parent: PosterBase
@@ -264,6 +310,8 @@
   components:
   - type: Sprite
     state: poster23_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandRebelsUnite
 
 - type: entity
   parent: PosterBase
@@ -273,6 +321,8 @@
   components:
   - type: Sprite
     state: poster24_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandC20r
 
 - type: entity
   parent: PosterBase
@@ -282,6 +332,8 @@
   components:
   - type: Sprite
     state: poster25_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandHaveaPuff
 
 - type: entity
   parent: PosterBase
@@ -291,6 +343,8 @@
   components:
   - type: Sprite
     state: poster26_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandRevolver
 
 - type: entity
   parent: PosterBase
@@ -300,6 +354,8 @@
   components:
   - type: Sprite
     state: poster27_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandDDayPromo
 
 - type: entity
   parent: PosterBase
@@ -309,6 +365,8 @@
   components:
   - type: Sprite
     state: poster28_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandSyndicatePistol
 
 - type: entity
   parent: PosterBase
@@ -318,6 +376,8 @@
   components:
   - type: Sprite
     state: poster29_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandEnergySwords
 
 - type: entity
   parent: PosterBase
@@ -327,6 +387,8 @@
   components:
   - type: Sprite
     state: poster30_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandRedRum
 
 - type: entity
   parent: PosterBase
@@ -336,6 +398,8 @@
   components:
   - type: Sprite
     state: poster31_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandCC64KAd
 
 - type: entity
   parent: PosterBase
@@ -345,6 +409,8 @@
   components:
   - type: Sprite
     state: poster32_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandPunchShit
 
 - type: entity
   parent: PosterBase
@@ -354,6 +420,8 @@
   components:
   - type: Sprite
     state: poster33_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandTheGriffin
 
 - type: entity
   parent: PosterBase
@@ -363,6 +431,8 @@
   components:
   - type: Sprite
     state: poster35_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandFreeDrone
 
 - type: entity
   parent: PosterBase
@@ -372,6 +442,8 @@
   components:
   - type: Sprite
     state: poster36_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandRouny
 
 - type: entity
   parent: PosterBase
@@ -381,6 +453,8 @@
   components:
   - type: Sprite
     state: poster37_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandRobustSoftdrinks
 
 - type: entity
   parent: PosterBase
@@ -390,6 +464,8 @@
   components:
   - type: Sprite
     state: poster38_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandShamblersJuice
 
 - type: entity
   parent: PosterBase
@@ -399,6 +475,8 @@
   components:
   - type: Sprite
     state: poster39_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandPwrGame
 
 - type: entity
   parent: PosterBase
@@ -408,6 +486,8 @@
   components:
   - type: Sprite
     state: poster40_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandSunkist
 
 - type: entity
   parent: PosterBase
@@ -417,6 +497,8 @@
   components:
   - type: Sprite
     state: poster41_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandSpaceCola
 
 - type: entity
   parent: PosterBase
@@ -426,6 +508,8 @@
   components:
   - type: Sprite
     state: poster42_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandSpaceUp
 
 - type: entity
   parent: PosterBase
@@ -435,6 +519,8 @@
   components:
   - type: Sprite
     state: poster43_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandKudzu
 
 - type: entity
   parent: PosterBase
@@ -444,6 +530,8 @@
   components:
   - type: Sprite
     state: poster44_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandMaskedMen
 
 - type: entity
   parent: PosterBase
@@ -453,6 +541,8 @@
   components:
   - type: Sprite
     state: poster45_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandUnreadableAnnouncement
 
 - type: entity
   parent: PosterBase
@@ -462,6 +552,8 @@
   components:
   - type: Sprite
     state: poster46_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandFreeSyndicateEncryptionKey
 
 - type: entity
   parent: PosterBase
@@ -471,6 +563,8 @@
   components:
   - type: Sprite
     state: poster47_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandBountyHunters
 
 - type: entity
   parent: PosterBase
@@ -480,6 +574,8 @@
   components:
   - type: Sprite
     state: poster48_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandTheBigGasTruth
 
 - type: entity
   parent: PosterBase
@@ -489,6 +585,8 @@
   components:
   - type: Sprite
     state: poster50_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandWehWatches
 
 - type: entity
   parent: PosterBase
@@ -498,6 +596,8 @@
   components:
   - type: Sprite
     state: poster51_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandVoteWeh
 
 # These 3 originally from VEEGEE
 - type: entity
@@ -508,6 +608,8 @@
   components:
   - type: Sprite
     state: poster52_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandBeachStarYamamoto
 
 - type: entity
   parent: PosterBase
@@ -517,6 +619,8 @@
   components:
   - type: Sprite
     state: poster53_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandHighEffectEngineering
 
 - type: entity
   parent: PosterBase
@@ -526,6 +630,8 @@
   components:
   - type: Sprite
     state: poster54_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandNuclearDeviceInformational
 
 - type: entity
   parent: PosterBase
@@ -535,6 +641,8 @@
   components:
   - type: Sprite
     state: poster55_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandRise
 
 - type: entity
   parent: PosterBase
@@ -544,6 +652,8 @@
   components:
   - type: Sprite
     state: poster56_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandRevolt
 
 - type: entity
   parent: PosterBase
@@ -553,6 +663,8 @@
   components:
     - type: Sprite
       state: poster57_contraband
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedContrabandMoth
 
 - type: entity
   parent: PosterBase
@@ -562,6 +674,8 @@
   components:
     - type: Sprite
       state: poster58_contraband
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedContrabandCybersun600
 
 - type: entity
   parent: PosterBase
@@ -571,6 +685,8 @@
   components:
     - type: Sprite
       state: poster59_contraband
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedContrabandDonk
 
 - type: entity
   parent: PosterBase
@@ -580,6 +696,8 @@
   components:
     - type: Sprite
       state: poster60_contraband
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedContrabandEnlistGorlex
 
 - type: entity
   parent: PosterBase
@@ -589,6 +707,8 @@
   components:
     - type: Sprite
       state: poster61_contraband
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedContrabandInterdyne
 
 - type: entity
   parent: PosterBase
@@ -598,6 +718,8 @@
   components:
     - type: Sprite
       state: poster62_contraband
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedContrabandWaffleCorp
 
 - type: entity
   parent: PosterBase
@@ -607,6 +729,8 @@
   components:
     - type: Sprite
       state: poster63_contraband
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedContrabandMissingSpacepen
 
 - type: entity
   parent: PosterBase
@@ -616,6 +740,8 @@
   components:
   - type: Sprite
     state: poster64_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandExoAcid
 
 - type: entity
   parent: PosterBase
@@ -625,6 +751,8 @@
   components:
   - type: Sprite
     state: poster65_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandExoRun
 
 - type: entity
   parent: PosterBase
@@ -634,6 +762,8 @@
   components:
   - type: Sprite
     state: poster66_contraband
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedContrabandExoChomp
 
 # Legit
 - type: entity
@@ -644,6 +774,8 @@
   components:
   - type: Sprite
     state: poster1_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitHereForYourSafety
 
 - type: entity
   parent: PosterBase
@@ -653,6 +785,8 @@
   components:
   - type: Sprite
     state: poster2_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitNanotrasenLogo
 
 - type: entity
   parent: PosterBase
@@ -662,6 +796,8 @@
   components:
   - type: Sprite
     state: poster3_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitCleanliness
 
 - type: entity
   parent: PosterBase
@@ -671,6 +807,8 @@
   components:
   - type: Sprite
     state: poster4_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitHelpOthers
 
 - type: entity
   parent: PosterBase
@@ -680,6 +818,8 @@
   components:
   - type: Sprite
     state: poster5_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitBuild
 
 - type: entity
   parent: PosterBase
@@ -689,6 +829,8 @@
   components:
   - type: Sprite
     state: poster6_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitBlessThisSpess
 
 - type: entity
   parent: PosterBase
@@ -698,6 +840,8 @@
   components:
   - type: Sprite
     state: poster7_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitScience
 
 - type: entity
   parent: PosterBase
@@ -707,6 +851,8 @@
   components:
   - type: Sprite
     state: poster8_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitIan
 
 - type: entity
   parent: PosterBase
@@ -716,6 +862,8 @@
   components:
   - type: Sprite
     state: poster9_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitObey
 
 - type: entity
   parent: PosterBase
@@ -725,6 +873,8 @@
   components:
   - type: Sprite
     state: poster10_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitWalk
 
 - type: entity
   parent: PosterBase
@@ -734,6 +884,8 @@
   components:
   - type: Sprite
     state: poster11_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitStateLaws
 
 - type: entity
   parent: PosterBase
@@ -743,6 +895,8 @@
   components:
   - type: Sprite
     state: poster12_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitLoveIan
 
 - type: entity
   parent: PosterBase
@@ -752,6 +906,8 @@
   components:
   - type: Sprite
     state: poster13_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitSpaceCops
 
 - type: entity
   parent: PosterBase
@@ -761,6 +917,8 @@
   components:
   - type: Sprite
     state: poster14_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitUeNo
 
 - type: entity
   parent: PosterBase
@@ -770,6 +928,8 @@
   components:
   - type: Sprite
     state: poster15_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitGetYourLEGS
 
 - type: entity
   parent: PosterBase
@@ -779,6 +939,8 @@
   components:
   - type: Sprite
     state: poster16_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitDoNotQuestion
 
 - type: entity
   parent: PosterBase
@@ -788,6 +950,8 @@
   components:
   - type: Sprite
     state: poster17_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitWorkForAFuture
 
 - type: entity
   parent: PosterBase
@@ -797,6 +961,8 @@
   components:
   - type: Sprite
     state: poster18_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitSoftCapPopArt
 
 - type: entity
   parent: PosterBase
@@ -806,6 +972,8 @@
   components:
   - type: Sprite
     state: poster19_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitSafetyInternals
 
 - type: entity
   parent: PosterBase
@@ -815,6 +983,8 @@
   components:
   - type: Sprite
     state: poster20_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitSafetyEyeProtection
 
 - type: entity
   parent: PosterBase
@@ -824,6 +994,8 @@
   components:
   - type: Sprite
     state: poster21_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitSafetyReport
 
 - type: entity
   parent: PosterBase
@@ -833,6 +1005,8 @@
   components:
   - type: Sprite
     state: poster22_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitReportCrimes
 
 - type: entity
   parent: PosterBase
@@ -842,6 +1016,8 @@
   components:
   - type: Sprite
     state: poster23_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitIonRifle
 
 - type: entity
   parent: PosterBase
@@ -851,6 +1027,8 @@
   components:
   - type: Sprite
     state: poster24_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitFoamForceAd
 
 - type: entity
   parent: PosterBase
@@ -860,6 +1038,8 @@
   components:
   - type: Sprite
     state: poster25_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitCohibaRobustoAd
 
 - type: entity
   parent: PosterBase
@@ -869,6 +1049,8 @@
   components:
   - type: Sprite
     state: poster26_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegit50thAnniversaryVintageReprint
 
 - type: entity
   parent: PosterBase
@@ -878,6 +1060,8 @@
   components:
   - type: Sprite
     state: poster27_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitFruitBowl
 
 - type: entity
   parent: PosterBase
@@ -887,6 +1071,8 @@
   components:
   - type: Sprite
     state: poster28_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitPDAAd
 
 - type: entity
   parent: PosterBase
@@ -896,6 +1082,8 @@
   components:
   - type: Sprite
     state: poster29_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitEnlist
 
 - type: entity
   parent: PosterBase
@@ -905,6 +1093,8 @@
   components:
   - type: Sprite
     state: poster30_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitNanomichiAd
 
 - type: entity
   parent: PosterBase
@@ -914,6 +1104,8 @@
   components:
   - type: Sprite
     state: poster31_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegit12Gauge
 
 - type: entity
   parent: PosterBase
@@ -923,6 +1115,8 @@
   components:
   - type: Sprite
     state: poster32_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitHighClassMartini
 
 - type: entity
   parent: PosterBase
@@ -932,6 +1126,8 @@
   components:
   - type: Sprite
     state: poster33_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitTheOwl
 
 - type: entity
   parent: PosterBase
@@ -941,6 +1137,8 @@
   components:
   - type: Sprite
     state: poster34_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitNoERP
 
 - type: entity
   parent: PosterBase
@@ -950,6 +1148,8 @@
   components:
   - type: Sprite
     state: poster35_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitCarbonDioxide
 
 - type: entity
   parent: PosterBase
@@ -959,6 +1159,8 @@
   components:
   - type: Sprite
     state: poster36_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitDickGumshue
 
 - type: entity
   parent: PosterBase
@@ -968,6 +1170,8 @@
   components:
   - type: Sprite
     state: poster37_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitThereIsNoGasGiant
 
 - type: entity
   parent: PosterBase
@@ -977,6 +1181,8 @@
   components:
   - type: Sprite
     state: poster38_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitJustAWeekAway
 
 - type: entity
   parent: PosterBase
@@ -986,6 +1192,8 @@
   components:
   - type: Sprite
     state: poster39_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitSecWatch
 
 - type: entity
   parent: PosterBase
@@ -995,6 +1203,8 @@
   components:
   - type: Sprite
     state: poster40_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitAnatomyPoster
 
 - type: entity
   parent: PosterBase
@@ -1004,6 +1214,8 @@
   components:
   - type: Sprite
     state: poster41_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitMime
 
 - type: entity
   parent: PosterBase
@@ -1013,6 +1225,8 @@
   components:
   - type: Sprite
     state: poster42_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitCarpMount
 
 - type: entity
   parent: PosterBase
@@ -1022,6 +1236,8 @@
   components:
     - type: Sprite
       state: poster43_legit
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedLegitSafetyMothDelam
 
 - type: entity
   parent: PosterBase
@@ -1031,6 +1247,8 @@
   components:
     - type: Sprite
       state: poster44_legit
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedLegitSafetyMothEpi
 
 - type: entity
   parent: PosterBase
@@ -1040,6 +1258,8 @@
   components:
     - type: Sprite
       state: poster45_legit
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedLegitSafetyMothPiping
 
 - type: entity
   parent: PosterBase
@@ -1049,6 +1269,8 @@
   components:
     - type: Sprite
       state: poster46_legit
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedLegitSafetyMothMeth
 
 - type: entity
   parent: PosterBase
@@ -1058,6 +1280,8 @@
   components:
     - type: Sprite
       state: poster47_legit
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedLegitSafetyMothHardhat
 
 - type: entity
   parent: PosterBase
@@ -1067,6 +1291,8 @@
   components:
     - type: Sprite
       state: poster48_legit
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedLegitVacation
 
 - type: entity
   parent: PosterBase
@@ -1076,6 +1302,8 @@
   components:
     - type: Sprite
       state: poster49_legit
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedLegitPeriodicTable
 
 - type: entity
   parent: PosterBase
@@ -1085,6 +1313,8 @@
   components:
     - type: Sprite
       state: poster50_legit
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedLegitRenault
 
 - type: entity
   parent: PosterBase
@@ -1094,6 +1324,8 @@
   components:
     - type: Sprite
       state: poster51_legit
+    - type: DisassembleOnAltVerb
+      prototypeToSpawn: PosterFoldedLegitNTTGC
 
 - type: entity
   parent: PosterBase
@@ -1103,6 +1335,8 @@
   components:
   - type: Sprite
     state: poster52_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitSafetyMothSSD
 
 - type: entity
   parent: PosterBase
@@ -1112,6 +1346,8 @@
   components:
   - type: Sprite
     state: poster53_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitOppenhopper
 
 - type: entity
   parent: PosterBase
@@ -1121,6 +1357,8 @@
   components:
   - type: Sprite
     state: poster54_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitTyrone
 
 - type: entity
   parent: PosterBase
@@ -1130,6 +1368,8 @@
   components:
   - type: Sprite
     state: poster55_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitHelio
 
 - type: entity
   parent: PosterBase
@@ -1139,6 +1379,8 @@
   components:
   - type: Sprite
     state: poster56_legit
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedLegitBotanyFear
 
 #maps
 
@@ -1150,6 +1392,8 @@
   components:
   - type: Sprite
     state: bagelmap
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedMapBagel
 
 - type: entity
   parent: PosterBase
@@ -1159,6 +1403,8 @@
   components:
   - type: Sprite
     state: deltamap
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedMapDelta
 
 - type: entity
   parent: PosterBase
@@ -1168,6 +1414,8 @@
   components:
   - type: Sprite
     state: marathonmap
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedMapMarathon
 
 - type: entity
   parent: PosterBase
@@ -1177,6 +1425,8 @@
   components:
   - type: Sprite
     state: moosemap
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedMapMoose
 
 - type: entity
   parent: PosterBase
@@ -1186,6 +1436,8 @@
   components:
   - type: Sprite
     state: packedmap
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedMapPacked
 
 - type: entity
   parent: PosterBase
@@ -1195,6 +1447,8 @@
   components:
   - type: Sprite
     state: pillarmap
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedMapPillar
 
 - type: entity
   parent: PosterBase
@@ -1204,6 +1458,8 @@
   components:
   - type: Sprite
     state: salternmap
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedMapSaltern
 
 - type: entity
   parent: PosterBase
@@ -1213,6 +1469,8 @@
   components:
   - type: Sprite
     state: splitmap
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedMapSplit
 
 - type: entity
   parent: PosterBase
@@ -1222,6 +1480,8 @@
   components:
   - type: Sprite
     state: lighthousemap
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedMapLighthouse
 
 - type: entity
   parent: PosterBase
@@ -1231,6 +1491,8 @@
   components:
   - type: Sprite
     state: waystationmap
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedMapWaystation
 
 - type: entity
   parent: PosterBase
@@ -1240,3 +1502,5 @@
   components:
   - type: Sprite
     state: originmap
+  - type: DisassembleOnAltVerb
+    prototypeToSpawn: PosterFoldedMapOrigin

@@ -34,7 +34,7 @@
             min: 1
             max: 1
         offset: 0
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure. Этот компонент добавлен ВСЕМ постерам, чтобы их можно было сложить.
     disassembleTime: 1
 
 - type: entity
@@ -68,7 +68,7 @@
   components:
   - type: Sprite
     state: poster1_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandFreeTonto
 
 - type: entity
@@ -79,7 +79,7 @@
   components:
   - type: Sprite
     state: poster2_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandAtmosiaDeclarationIndependence
 
 - type: entity
@@ -90,7 +90,7 @@
   components:
   - type: Sprite
     state: poster3_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandFunPolice
 
 - type: entity
@@ -101,7 +101,7 @@
   components:
   - type: Sprite
     state: poster4_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandRealExomorph
 
 - type: entity
@@ -112,7 +112,7 @@
   components:
   - type: Sprite
     state: poster5_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandSyndicateRecruitment
 
 - type: entity
@@ -123,7 +123,7 @@
   components:
   - type: Sprite
     state: poster6_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandClown
 
 - type: entity
@@ -134,7 +134,7 @@
   components:
   - type: Sprite
     state: poster7_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandSmoke
 
 - type: entity
@@ -145,7 +145,7 @@
   components:
   - type: Sprite
     state: poster8_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandGreyTide
 
 - type: entity
@@ -156,7 +156,7 @@
   components:
   - type: Sprite
     state: poster9_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandMissingGloves
 
 - type: entity
@@ -167,7 +167,7 @@
   components:
   - type: Sprite
     state: poster10_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandHackingGuide
 
 - type: entity
@@ -178,7 +178,7 @@
   components:
   - type: Sprite
     state: poster11_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandRIPBadger
 
 - type: entity
@@ -189,7 +189,7 @@
   components:
   - type: Sprite
     state: poster12_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandAmbrosiaVulgaris
 
 - type: entity
@@ -200,7 +200,7 @@
   components:
   - type: Sprite
     state: poster13_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandDonutCorp
 
 - type: entity
@@ -211,7 +211,7 @@
   components:
   - type: Sprite
     state: poster14_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandEAT
 
 - type: entity
@@ -222,7 +222,7 @@
   components:
   - type: Sprite
     state: poster15_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandTools
 
 - type: entity
@@ -233,7 +233,7 @@
   components:
   - type: Sprite
     state: poster16_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandPower
 
 - type: entity
@@ -244,7 +244,7 @@
   components:
   - type: Sprite
     state: poster17_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandSpaceCube
 
 - type: entity
@@ -255,7 +255,7 @@
   components:
   - type: Sprite
     state: poster18_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandCommunistState
 
 - type: entity
@@ -266,7 +266,7 @@
   components:
   - type: Sprite
     state: poster19_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandLamarr
 
 - type: entity
@@ -277,7 +277,7 @@
   components:
   - type: Sprite
     state: poster20_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandLamarr
 
 - type: entity
@@ -288,7 +288,7 @@
   components:
   - type: Sprite
     state: poster21_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandBorgFancyv2
 
 - type: entity
@@ -299,7 +299,7 @@
   components:
   - type: Sprite
     state: poster22_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandBorgFancyv2
 
 - type: entity
@@ -310,7 +310,7 @@
   components:
   - type: Sprite
     state: poster23_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandRebelsUnite
 
 - type: entity
@@ -321,7 +321,7 @@
   components:
   - type: Sprite
     state: poster24_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandC20r
 
 - type: entity
@@ -332,7 +332,7 @@
   components:
   - type: Sprite
     state: poster25_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandHaveaPuff
 
 - type: entity
@@ -343,7 +343,7 @@
   components:
   - type: Sprite
     state: poster26_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandRevolver
 
 - type: entity
@@ -354,7 +354,7 @@
   components:
   - type: Sprite
     state: poster27_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandDDayPromo
 
 - type: entity
@@ -365,7 +365,7 @@
   components:
   - type: Sprite
     state: poster28_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandSyndicatePistol
 
 - type: entity
@@ -376,7 +376,7 @@
   components:
   - type: Sprite
     state: poster29_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandEnergySwords
 
 - type: entity
@@ -387,7 +387,7 @@
   components:
   - type: Sprite
     state: poster30_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandRedRum
 
 - type: entity
@@ -398,7 +398,7 @@
   components:
   - type: Sprite
     state: poster31_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandCC64KAd
 
 - type: entity
@@ -409,7 +409,7 @@
   components:
   - type: Sprite
     state: poster32_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandPunchShit
 
 - type: entity
@@ -420,7 +420,7 @@
   components:
   - type: Sprite
     state: poster33_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandTheGriffin
 
 - type: entity
@@ -431,7 +431,7 @@
   components:
   - type: Sprite
     state: poster35_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandFreeDrone
 
 - type: entity
@@ -442,7 +442,7 @@
   components:
   - type: Sprite
     state: poster36_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandRouny
 
 - type: entity
@@ -453,7 +453,7 @@
   components:
   - type: Sprite
     state: poster37_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandRobustSoftdrinks
 
 - type: entity
@@ -464,7 +464,7 @@
   components:
   - type: Sprite
     state: poster38_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandShamblersJuice
 
 - type: entity
@@ -475,7 +475,7 @@
   components:
   - type: Sprite
     state: poster39_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandPwrGame
 
 - type: entity
@@ -486,7 +486,7 @@
   components:
   - type: Sprite
     state: poster40_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandSunkist
 
 - type: entity
@@ -497,7 +497,7 @@
   components:
   - type: Sprite
     state: poster41_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandSpaceCola
 
 - type: entity
@@ -508,7 +508,7 @@
   components:
   - type: Sprite
     state: poster42_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandSpaceUp
 
 - type: entity
@@ -519,7 +519,7 @@
   components:
   - type: Sprite
     state: poster43_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandKudzu
 
 - type: entity
@@ -530,7 +530,7 @@
   components:
   - type: Sprite
     state: poster44_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandMaskedMen
 
 - type: entity
@@ -541,7 +541,7 @@
   components:
   - type: Sprite
     state: poster45_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandUnreadableAnnouncement
 
 - type: entity
@@ -552,7 +552,7 @@
   components:
   - type: Sprite
     state: poster46_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandFreeSyndicateEncryptionKey
 
 - type: entity
@@ -563,7 +563,7 @@
   components:
   - type: Sprite
     state: poster47_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandBountyHunters
 
 - type: entity
@@ -574,7 +574,7 @@
   components:
   - type: Sprite
     state: poster48_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandTheBigGasTruth
 
 - type: entity
@@ -585,7 +585,7 @@
   components:
   - type: Sprite
     state: poster50_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandWehWatches
 
 - type: entity
@@ -596,7 +596,7 @@
   components:
   - type: Sprite
     state: poster51_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandVoteWeh
 
 # These 3 originally from VEEGEE
@@ -608,7 +608,7 @@
   components:
   - type: Sprite
     state: poster52_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandBeachStarYamamoto
 
 - type: entity
@@ -619,7 +619,7 @@
   components:
   - type: Sprite
     state: poster53_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandHighEffectEngineering
 
 - type: entity
@@ -630,7 +630,7 @@
   components:
   - type: Sprite
     state: poster54_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandNuclearDeviceInformational
 
 - type: entity
@@ -641,7 +641,7 @@
   components:
   - type: Sprite
     state: poster55_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandRise
 
 - type: entity
@@ -652,7 +652,7 @@
   components:
   - type: Sprite
     state: poster56_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandRevolt
 
 - type: entity
@@ -663,7 +663,7 @@
   components:
     - type: Sprite
       state: poster57_contraband
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedContrabandMoth
 
 - type: entity
@@ -674,7 +674,7 @@
   components:
     - type: Sprite
       state: poster58_contraband
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedContrabandCybersun600
 
 - type: entity
@@ -685,7 +685,7 @@
   components:
     - type: Sprite
       state: poster59_contraband
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedContrabandDonk
 
 - type: entity
@@ -696,7 +696,7 @@
   components:
     - type: Sprite
       state: poster60_contraband
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedContrabandEnlistGorlex
 
 - type: entity
@@ -707,7 +707,7 @@
   components:
     - type: Sprite
       state: poster61_contraband
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedContrabandInterdyne
 
 - type: entity
@@ -718,7 +718,7 @@
   components:
     - type: Sprite
       state: poster62_contraband
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedContrabandWaffleCorp
 
 - type: entity
@@ -729,7 +729,7 @@
   components:
     - type: Sprite
       state: poster63_contraband
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedContrabandMissingSpacepen
 
 - type: entity
@@ -740,7 +740,7 @@
   components:
   - type: Sprite
     state: poster64_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandExoAcid
 
 - type: entity
@@ -751,7 +751,7 @@
   components:
   - type: Sprite
     state: poster65_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandExoRun
 
 - type: entity
@@ -762,7 +762,7 @@
   components:
   - type: Sprite
     state: poster66_contraband
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedContrabandExoChomp
 
 # Legit
@@ -774,7 +774,7 @@
   components:
   - type: Sprite
     state: poster1_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitHereForYourSafety
 
 - type: entity
@@ -785,7 +785,7 @@
   components:
   - type: Sprite
     state: poster2_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitNanotrasenLogo
 
 - type: entity
@@ -796,7 +796,7 @@
   components:
   - type: Sprite
     state: poster3_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitCleanliness
 
 - type: entity
@@ -807,7 +807,7 @@
   components:
   - type: Sprite
     state: poster4_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitHelpOthers
 
 - type: entity
@@ -818,7 +818,7 @@
   components:
   - type: Sprite
     state: poster5_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitBuild
 
 - type: entity
@@ -829,7 +829,7 @@
   components:
   - type: Sprite
     state: poster6_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitBlessThisSpess
 
 - type: entity
@@ -840,7 +840,7 @@
   components:
   - type: Sprite
     state: poster7_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitScience
 
 - type: entity
@@ -851,7 +851,7 @@
   components:
   - type: Sprite
     state: poster8_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitIan
 
 - type: entity
@@ -862,7 +862,7 @@
   components:
   - type: Sprite
     state: poster9_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitObey
 
 - type: entity
@@ -873,7 +873,7 @@
   components:
   - type: Sprite
     state: poster10_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitWalk
 
 - type: entity
@@ -884,7 +884,7 @@
   components:
   - type: Sprite
     state: poster11_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitStateLaws
 
 - type: entity
@@ -895,7 +895,7 @@
   components:
   - type: Sprite
     state: poster12_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitLoveIan
 
 - type: entity
@@ -906,7 +906,7 @@
   components:
   - type: Sprite
     state: poster13_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitSpaceCops
 
 - type: entity
@@ -917,7 +917,7 @@
   components:
   - type: Sprite
     state: poster14_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitUeNo
 
 - type: entity
@@ -928,7 +928,7 @@
   components:
   - type: Sprite
     state: poster15_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitGetYourLEGS
 
 - type: entity
@@ -939,7 +939,7 @@
   components:
   - type: Sprite
     state: poster16_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitDoNotQuestion
 
 - type: entity
@@ -950,7 +950,7 @@
   components:
   - type: Sprite
     state: poster17_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitWorkForAFuture
 
 - type: entity
@@ -961,7 +961,7 @@
   components:
   - type: Sprite
     state: poster18_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitSoftCapPopArt
 
 - type: entity
@@ -972,7 +972,7 @@
   components:
   - type: Sprite
     state: poster19_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitSafetyInternals
 
 - type: entity
@@ -983,7 +983,7 @@
   components:
   - type: Sprite
     state: poster20_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitSafetyEyeProtection
 
 - type: entity
@@ -994,7 +994,7 @@
   components:
   - type: Sprite
     state: poster21_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitSafetyReport
 
 - type: entity
@@ -1005,7 +1005,7 @@
   components:
   - type: Sprite
     state: poster22_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitReportCrimes
 
 - type: entity
@@ -1016,7 +1016,7 @@
   components:
   - type: Sprite
     state: poster23_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitIonRifle
 
 - type: entity
@@ -1027,7 +1027,7 @@
   components:
   - type: Sprite
     state: poster24_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitFoamForceAd
 
 - type: entity
@@ -1038,7 +1038,7 @@
   components:
   - type: Sprite
     state: poster25_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitCohibaRobustoAd
 
 - type: entity
@@ -1049,7 +1049,7 @@
   components:
   - type: Sprite
     state: poster26_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegit50thAnniversaryVintageReprint
 
 - type: entity
@@ -1060,7 +1060,7 @@
   components:
   - type: Sprite
     state: poster27_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitFruitBowl
 
 - type: entity
@@ -1071,7 +1071,7 @@
   components:
   - type: Sprite
     state: poster28_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitPDAAd
 
 - type: entity
@@ -1082,7 +1082,7 @@
   components:
   - type: Sprite
     state: poster29_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitEnlist
 
 - type: entity
@@ -1093,7 +1093,7 @@
   components:
   - type: Sprite
     state: poster30_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitNanomichiAd
 
 - type: entity
@@ -1104,7 +1104,7 @@
   components:
   - type: Sprite
     state: poster31_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegit12Gauge
 
 - type: entity
@@ -1115,7 +1115,7 @@
   components:
   - type: Sprite
     state: poster32_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitHighClassMartini
 
 - type: entity
@@ -1126,7 +1126,7 @@
   components:
   - type: Sprite
     state: poster33_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitTheOwl
 
 - type: entity
@@ -1137,7 +1137,7 @@
   components:
   - type: Sprite
     state: poster34_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitNoERP
 
 - type: entity
@@ -1148,7 +1148,7 @@
   components:
   - type: Sprite
     state: poster35_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitCarbonDioxide
 
 - type: entity
@@ -1159,7 +1159,7 @@
   components:
   - type: Sprite
     state: poster36_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitDickGumshue
 
 - type: entity
@@ -1170,7 +1170,7 @@
   components:
   - type: Sprite
     state: poster37_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitThereIsNoGasGiant
 
 - type: entity
@@ -1181,7 +1181,7 @@
   components:
   - type: Sprite
     state: poster38_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitJustAWeekAway
 
 - type: entity
@@ -1192,7 +1192,7 @@
   components:
   - type: Sprite
     state: poster39_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitSecWatch
 
 - type: entity
@@ -1203,7 +1203,7 @@
   components:
   - type: Sprite
     state: poster40_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitAnatomyPoster
 
 - type: entity
@@ -1214,7 +1214,7 @@
   components:
   - type: Sprite
     state: poster41_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitMime
 
 - type: entity
@@ -1225,7 +1225,7 @@
   components:
   - type: Sprite
     state: poster42_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitCarpMount
 
 - type: entity
@@ -1236,7 +1236,7 @@
   components:
     - type: Sprite
       state: poster43_legit
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedLegitSafetyMothDelam
 
 - type: entity
@@ -1247,7 +1247,7 @@
   components:
     - type: Sprite
       state: poster44_legit
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedLegitSafetyMothEpi
 
 - type: entity
@@ -1258,7 +1258,7 @@
   components:
     - type: Sprite
       state: poster45_legit
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedLegitSafetyMothPiping
 
 - type: entity
@@ -1269,7 +1269,7 @@
   components:
     - type: Sprite
       state: poster46_legit
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedLegitSafetyMothMeth
 
 - type: entity
@@ -1280,7 +1280,7 @@
   components:
     - type: Sprite
       state: poster47_legit
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedLegitSafetyMothHardhat
 
 - type: entity
@@ -1291,7 +1291,7 @@
   components:
     - type: Sprite
       state: poster48_legit
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedLegitVacation
 
 - type: entity
@@ -1302,7 +1302,7 @@
   components:
     - type: Sprite
       state: poster49_legit
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedLegitPeriodicTable
 
 - type: entity
@@ -1313,7 +1313,7 @@
   components:
     - type: Sprite
       state: poster50_legit
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedLegitRenault
 
 - type: entity
@@ -1324,7 +1324,7 @@
   components:
     - type: Sprite
       state: poster51_legit
-    - type: DisassembleOnAltVerb
+    - type: DisassembleOnAltVerb #Adventure
       prototypeToSpawn: PosterFoldedLegitNTTGC
 
 - type: entity
@@ -1335,7 +1335,7 @@
   components:
   - type: Sprite
     state: poster52_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitSafetyMothSSD
 
 - type: entity
@@ -1346,7 +1346,7 @@
   components:
   - type: Sprite
     state: poster53_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitOppenhopper
 
 - type: entity
@@ -1357,7 +1357,7 @@
   components:
   - type: Sprite
     state: poster54_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitTyrone
 
 - type: entity
@@ -1368,7 +1368,7 @@
   components:
   - type: Sprite
     state: poster55_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitHelio
 
 - type: entity
@@ -1379,7 +1379,7 @@
   components:
   - type: Sprite
     state: poster56_legit
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedLegitBotanyFear
 
 #maps
@@ -1392,7 +1392,7 @@
   components:
   - type: Sprite
     state: bagelmap
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedMapBagel
 
 - type: entity
@@ -1403,7 +1403,7 @@
   components:
   - type: Sprite
     state: deltamap
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedMapDelta
 
 - type: entity
@@ -1414,7 +1414,7 @@
   components:
   - type: Sprite
     state: marathonmap
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedMapMarathon
 
 - type: entity
@@ -1425,7 +1425,7 @@
   components:
   - type: Sprite
     state: moosemap
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedMapMoose
 
 - type: entity
@@ -1436,7 +1436,7 @@
   components:
   - type: Sprite
     state: packedmap
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedMapPacked
 
 - type: entity
@@ -1447,7 +1447,7 @@
   components:
   - type: Sprite
     state: pillarmap
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedMapPillar
 
 - type: entity
@@ -1458,7 +1458,7 @@
   components:
   - type: Sprite
     state: salternmap
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedMapSaltern
 
 - type: entity
@@ -1469,7 +1469,7 @@
   components:
   - type: Sprite
     state: splitmap
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedMapSplit
 
 - type: entity
@@ -1480,7 +1480,7 @@
   components:
   - type: Sprite
     state: lighthousemap
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedMapLighthouse
 
 - type: entity
@@ -1491,7 +1491,7 @@
   components:
   - type: Sprite
     state: waystationmap
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedMapWaystation
 
 - type: entity
@@ -1502,5 +1502,5 @@
   components:
   - type: Sprite
     state: originmap
-  - type: DisassembleOnAltVerb
+  - type: DisassembleOnAltVerb #Adventure
     prototypeToSpawn: PosterFoldedMapOrigin

@@ -85975,7 +85975,7 @@ entities:
     - type: Transform
       pos: 44.5,-6.5
       parent: 2
-- proto: SpawnPointBrigmedic
+- proto: SpawnPointBrigmedicAdven
   entities:
   - uid: 15684
     components:

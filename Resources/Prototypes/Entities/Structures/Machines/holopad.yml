@@ -76,6 +76,7 @@
     ringTone: /Audio/Machines/double_ring.ogg
     listeningRange: 2.5
     speakerVolume: Speak
+    idlingTimeout: 180 # Adventure
   - type: AccessReader
     access: [[ "Command" ]]
     examinationText: access-reader-examination-functionality-restricted

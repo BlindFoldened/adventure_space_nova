@@ -66,6 +66,8 @@
       path: /Audio/Ambience/Objects/buzzing.ogg
   - type: Holopad
     hologramProtoId: HolopadHologram
+  - type: TTS # Adventure
+    voice: glados # Adventure
   - type: Speech
     speechVerb: Robotic
     speechSounds: Borg

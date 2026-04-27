@@ -66,6 +66,8 @@
       path: /Audio/Ambience/Objects/buzzing.ogg
   - type: Holopad
     hologramProtoId: HolopadHologram
+  - type: TTS # Adventure
+    voice: glados # Adventure
   - type: Speech
     speechVerb: Robotic
     speechSounds: Borg
@@ -74,6 +76,7 @@
     ringTone: /Audio/Machines/double_ring.ogg
     listeningRange: 2.5
     speakerVolume: Speak
+    idlingTimeout: 180 # Adventure
   - type: AccessReader
     access: [[ "Command" ]]
     examinationText: access-reader-examination-functionality-restricted

@@ -64633,7 +64633,7 @@ entities:
     - type: Transform
       pos: -5.5,8.5
       parent: 2
-- proto: SpawnPointBrigmedic
+- proto: SpawnPointBrigmedicAdven
   entities:
   - uid: 9554
     components:

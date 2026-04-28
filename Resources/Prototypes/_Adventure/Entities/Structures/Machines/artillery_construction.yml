@@ -11,6 +11,7 @@
       - material: Plasteel
         amount: 30
         doAfter: 5
+
   - node: frame1
     entity: BluespaceArtilleryFrame
     actions:
@@ -18,8 +19,11 @@
     edges:
     - to: frame2
       steps:
-      - material: Plasma
-        amount: 15
+      - material: Steel
+        amount: 20
+        doAfter: 3
+      - material: Plasteel
+        amount: 10
         doAfter: 3
     - to: start
       completed:
@@ -33,72 +37,114 @@
       steps:
       - tool: Welding
         doAfter: 20
+
   - node: frame2
     actions:
     - !type:AppearanceChange
     edges:
     - to: frame3
       steps:
-      - material: Gold
-        amount: 10
+      - material: Steel
+        amount: 20
         doAfter: 3
-      - tool: Screwing
-        doAfter: 0.5
+      - material: Plasteel
+        amount: 5
+        doAfter: 3
+      - tool: Anchoring
+        doAfter: 20
+      - tool: Welding
+        doAfter: 10
     - to: frame1
       completed:
       - !type:SpawnPrototype
-        prototype: SheetPlasma1
-        amount: 15
-      conditions:
-      - !type:EntityAnchored
-        anchored: false
+        prototype: SheetSteel1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: SheetPlasteel1
+        amount: 10
       steps:
-      - tool: Cutting
+      - tool: Prying
         doAfter: 4
+
   - node: frame3
     actions:
     - !type:AppearanceChange
     edges:
     - to: frame4
       steps:
-      - material: Silver
+      - tag: LightBulb
+        name: construction-graph-tag-light-bulb
+        amount: 1
+      - tag: LightBulb
+        name: construction-graph-tag-second-light-bulb
+        amount: 1
+      - tag: LightBulb
+        name: construction-graph-tag-third-light-bulb
+        amount: 1
+      - tag: LightBulb
+        name: construction-graph-tag-fourth-light-bulb
+        amount: 1
+      - tag: LightBulb
+        name: construction-graph-tag-fifth-light-bulb
+        amount: 1
+      - material: Cable
+        amount: 10
+      - material: CableMV
+        amount: 5
+      - material: Manipulator
+        amount: 5
+      - material: Gold
         amount: 20
-        doAfter: 2
-      - tool: Welding
-        doAfter: 1
+      - material: Silver
+        amount: 30
     - to: frame2
       completed:
       - !type:SpawnPrototype
-        prototype: IngotGold1
-        amount: 10
-      conditions:
-      - !type:EntityAnchored
-        anchored: false
+        prototype: SheetPlasteel1
+        amount: 5
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 20
       steps:
+      - tool: Anchoring
+        doAfter: 20
       - tool: Prying
-        doAfter: 2
+        doAfter: 4
+
   - node: frame4
     actions:
     - !type:AppearanceChange
     edges:
     - to: frame5
       steps:
-      - material: Gold
-        amount: 5
-        doAfter: 5
-      - tool: Prying
-        doAfter: 2
+      - tool: Anchoring
+        doAfter: 10
+      - tool: Screwing
+        doAfter: 10
     - to: frame3
       completed:
       - !type:SpawnPrototype
-        prototype: IngotSilver1
+        prototype: CableApcStack1
+        amount: 10
+      - !type:SpawnPrototype
+        prototype: CableMVStack1
+        amount: 5
+      - !type:SpawnPrototype
+        prototype: MicroManipulatorStockPart
+        amount: 5
+      - !type:SpawnPrototype
+        prototype: IngotGold1
         amount: 20
-      conditions:
-      - !type:EntityAnchored
-        anchored: false
+      - !type:SpawnPrototype
+        prototype: IngotSilver1
+        amount: 30
+      - !type:SpawnPrototype
+        prototype: LightBulbBroken
+        amount: 5
       steps:
-      - tool: Welding
-        doAfter: 20
+      - tool: Prying
+        doAfter: 3
+
   - node: frame5
     actions:
     - !type:AppearanceChange
@@ -106,16 +152,20 @@
     - to: frame6
       steps:
       - material: Steel
-        amount: 30
+        amount: 10
         doAfter: 2
-    - to: frame4
-      completed:
-      - !type:SpawnPrototype
-        prototype: IngotGold1
+      - material: Plasteel
         amount: 5
+        doAfter: 2
+      - tool: Welding
+        doAfter: 10
+    - to: frame4
       steps:
-      - tool: Prying
-        doAfter: 3
+      - tool: Screwing
+        doAfter: 5
+      - tool: Anchoring
+        doAfter: 5
+
   - node: frame6
     actions:
     - !type:AppearanceChange
@@ -123,16 +173,29 @@
     - to: frame7
       steps:
       - material: Steel
-        amount: 30
+        amount: 5
         doAfter: 2
+      - tool: Welding
+        doAfter: 5
+      - tool: Anchoring
+        doAfter: 10
+      - material: Cable
+        amount: 15
+      - material: CableMV
+        amount: 10
     - to: frame5
       completed:
       - !type:SpawnPrototype
+        prototype: SheetPlasteel1
+        amount: 5
+      - !type:SpawnPrototype
         prototype: SheetSteel1
-        amount: 30
+        amount: 10
       steps:
       - tool: Welding
-        doAfter: 2
+        doAfter: 3
+      - tool: Prying
+        doAfter: 3
 
   - node: frame7
     actions:
@@ -140,16 +203,23 @@
     edges:
     - to: frame8
       steps:
-      - material: Steel
-        amount: 30
-        doAfter: 2
+      - material: CableHV
+        amount: 20
+      - material: CableMV
+        amount: 10
     - to: frame6
       completed:
       - !type:SpawnPrototype
         prototype: SheetSteel1
-        amount: 30
+        amount: 5
+      - !type:SpawnPrototype
+        prototype: CableApcStack1
+        amount: 15
+      - !type:SpawnPrototype
+        prototype: CableMVStack1
+        amount: 10
       steps:
-      - tool: Welding
+      - tool: Cutting
         doAfter: 2
 
   - node: frame8
@@ -158,17 +228,27 @@
     edges:
     - to: frame9
       steps:
-      - material: Steel
-        amount: 30
-        doAfter: 2
+      - tool: Anchoring
+        doAfter: 5
+      - tool: Screwing
+        doAfter: 5
+      - material: Uranium
+        amount: 20
+      - material: Plasma
+        amount: 20
+      - material: Gold
+        amount: 15
     - to: frame7
       completed:
       - !type:SpawnPrototype
-        prototype: SheetSteel1
-        amount: 30
+        prototype: CableHVStack1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: CableMVStack1
+        amount: 10
       steps:
-      - tool: Welding
-        doAfter: 2
+      - tool: Cutting
+        doAfter: 8
 
   - node: frame9
     actions:
@@ -176,16 +256,29 @@
     edges:
     - to: frame10
       steps:
-      - material: Steel
-        amount: 30
-        doAfter: 2
+      - tool: Anchoring
+        doAfter: 5
+      - tool: Screwing
+        doAfter: 5
+      - material: Uranium
+        amount: 20
+      - material: Plasma
+        amount: 20
+      - material: Silver
+        amount: 15
     - to: frame8
       completed:
       - !type:SpawnPrototype
-        prototype: SheetSteel1
-        amount: 30
+        prototype: SheetUranium1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: SheetPlasma1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: IngotGold1
+        amount: 15
       steps:
-      - tool: Welding
+      - tool: Prying
         doAfter: 2
 
   - node: frame10
@@ -194,16 +287,27 @@
     edges:
     - to: frame11
       steps:
-      - material: Steel
-        amount: 30
-        doAfter: 2
+      - tool: Anchoring
+        doAfter: 5
+      - tool: Screwing
+        doAfter: 5
+      - material: Uranium
+        amount: 25
+      - material: Plasma
+        amount: 25
     - to: frame9
       completed:
       - !type:SpawnPrototype
-        prototype: SheetSteel1
-        amount: 30
+        prototype: SheetUranium1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: SheetPlasma1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: IngotSilver1
+        amount: 15
       steps:
-      - tool: Welding
+      - tool: Prying
         doAfter: 2
 
   - node: frame11
@@ -212,16 +316,26 @@
     edges:
     - to: frame12
       steps:
-      - material: Steel
-        amount: 30
-        doAfter: 2
+      - tool: Anchoring
+        doAfter: 5
+      - tool: Screwing
+        doAfter: 5
+      - material: Uranium
+        amount: 20
+      - material: Plasma
+        amount: 20
+      - material: CentCommCrystal
+        amount: 10
     - to: frame10
       completed:
       - !type:SpawnPrototype
-        prototype: SheetSteel1
-        amount: 30
+        prototype: SheetUranium1
+        amount: 25
+      - !type:SpawnPrototype
+        prototype: SheetPlasma1
+        amount: 25
       steps:
-      - tool: Welding
+      - tool: Prying
         doAfter: 2
 
   - node: frame12
@@ -236,10 +350,16 @@
     - to: frame11
       completed:
       - !type:SpawnPrototype
-        prototype: SheetSteel1
-        amount: 30
+        prototype: SheetUranium1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: SheetPlasma1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: CentCommCrystal1
+        amount: 10
       steps:
-      - tool: Welding
+      - tool: Prying
         doAfter: 2
 
   - node: frame13
@@ -457,7 +577,7 @@
         prototype: SheetSteel1
         amount: 30
       steps:
-      - tool: Welding
+      - tool: Prying
         doAfter: 2
 
   - node: cannon_east
@@ -487,6 +607,7 @@
       - material: Plasteel
         amount: 30
         doAfter: 5
+
   - node: frame1
     entity: BluespaceArtilleryFrameFlipped
     actions:
@@ -494,8 +615,11 @@
     edges:
     - to: frame2
       steps:
-      - material: Plasma
-        amount: 15
+      - material: Steel
+        amount: 20
+        doAfter: 3
+      - material: Plasteel
+        amount: 10
         doAfter: 3
     - to: start
       completed:
@@ -509,72 +633,114 @@
       steps:
       - tool: Welding
         doAfter: 20
+
   - node: frame2
     actions:
     - !type:AppearanceChange
     edges:
     - to: frame3
       steps:
-      - material: Gold
-        amount: 10
+      - material: Steel
+        amount: 20
         doAfter: 3
-      - tool: Screwing
-        doAfter: 0.5
+      - material: Plasteel
+        amount: 5
+        doAfter: 3
+      - tool: Anchoring
+        doAfter: 20
+      - tool: Welding
+        doAfter: 10
     - to: frame1
       completed:
       - !type:SpawnPrototype
-        prototype: SheetPlasma1
-        amount: 15
-      conditions:
-      - !type:EntityAnchored
-        anchored: false
+        prototype: SheetSteel1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: SheetPlasteel1
+        amount: 10
       steps:
-      - tool: Cutting
+      - tool: Prying
         doAfter: 4
+
   - node: frame3
     actions:
     - !type:AppearanceChange
     edges:
     - to: frame4
       steps:
-      - material: Silver
+      - tag: LightBulb
+        name: construction-graph-tag-light-bulb
+        amount: 1
+      - tag: LightBulb
+        name: construction-graph-tag-second-light-bulb
+        amount: 1
+      - tag: LightBulb
+        name: construction-graph-tag-third-light-bulb
+        amount: 1
+      - tag: LightBulb
+        name: construction-graph-tag-fourth-light-bulb
+        amount: 1
+      - tag: LightBulb
+        name: construction-graph-tag-fifth-light-bulb
+        amount: 1
+      - material: Cable
+        amount: 10
+      - material: CableMV
+        amount: 5
+      - material: Manipulator
+        amount: 5
+      - material: Gold
         amount: 20
-        doAfter: 2
-      - tool: Welding
-        doAfter: 1
+      - material: Silver
+        amount: 30
     - to: frame2
       completed:
       - !type:SpawnPrototype
-        prototype: IngotGold1
-        amount: 10
-      conditions:
-      - !type:EntityAnchored
-        anchored: false
+        prototype: SheetPlasteel1
+        amount: 5
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 20
       steps:
+      - tool: Anchoring
+        doAfter: 20
       - tool: Prying
-        doAfter: 2
+        doAfter: 4
+
   - node: frame4
     actions:
     - !type:AppearanceChange
     edges:
     - to: frame5
       steps:
-      - material: Gold
-        amount: 5
-        doAfter: 5
-      - tool: Prying
-        doAfter: 2
+      - tool: Anchoring
+        doAfter: 10
+      - tool: Screwing
+        doAfter: 10
     - to: frame3
       completed:
       - !type:SpawnPrototype
-        prototype: IngotSilver1
+        prototype: CableApcStack1
+        amount: 10
+      - !type:SpawnPrototype
+        prototype: CableMVStack1
+        amount: 5
+      - !type:SpawnPrototype
+        prototype: MicroManipulatorStockPart
+        amount: 5
+      - !type:SpawnPrototype
+        prototype: IngotGold1
         amount: 20
-      conditions:
-      - !type:EntityAnchored
-        anchored: false
+      - !type:SpawnPrototype
+        prototype: IngotSilver1
+        amount: 30
+      - !type:SpawnPrototype
+        prototype: LightBulbBroken
+        amount: 5
       steps:
-      - tool: Welding
-        doAfter: 20
+      - tool: Prying
+        doAfter: 3
+
   - node: frame5
     actions:
     - !type:AppearanceChange
@@ -582,16 +748,20 @@
     - to: frame6
       steps:
       - material: Steel
-        amount: 30
+        amount: 10
         doAfter: 2
-    - to: frame4
-      completed:
-      - !type:SpawnPrototype
-        prototype: IngotGold1
+      - material: Plasteel
         amount: 5
+        doAfter: 2
+      - tool: Welding
+        doAfter: 10
+    - to: frame4
       steps:
-      - tool: Prying
-        doAfter: 3
+      - tool: Screwing
+        doAfter: 5
+      - tool: Anchoring
+        doAfter: 5
+
   - node: frame6
     actions:
     - !type:AppearanceChange
@@ -599,16 +769,29 @@
     - to: frame7
       steps:
       - material: Steel
-        amount: 30
+        amount: 5
         doAfter: 2
+      - tool: Welding
+        doAfter: 5
+      - tool: Anchoring
+        doAfter: 10
+      - material: Cable
+        amount: 15
+      - material: CableMV
+        amount: 10
     - to: frame5
       completed:
       - !type:SpawnPrototype
+        prototype: SheetPlasteel1
+        amount: 5
+      - !type:SpawnPrototype
         prototype: SheetSteel1
-        amount: 30
+        amount: 10
       steps:
       - tool: Welding
-        doAfter: 2
+        doAfter: 3
+      - tool: Prying
+        doAfter: 3
 
   - node: frame7
     actions:
@@ -616,16 +799,23 @@
     edges:
     - to: frame8
       steps:
-      - material: Steel
-        amount: 30
-        doAfter: 2
+      - material: CableHV
+        amount: 20
+      - material: CableMV
+        amount: 10
     - to: frame6
       completed:
       - !type:SpawnPrototype
         prototype: SheetSteel1
-        amount: 30
+        amount: 5
+      - !type:SpawnPrototype
+        prototype: CableApcStack1
+        amount: 15
+      - !type:SpawnPrototype
+        prototype: CableMVStack1
+        amount: 10
       steps:
-      - tool: Welding
+      - tool: Cutting
         doAfter: 2
 
   - node: frame8
@@ -634,17 +824,27 @@
     edges:
     - to: frame9
       steps:
-      - material: Steel
-        amount: 30
-        doAfter: 2
+      - tool: Anchoring
+        doAfter: 5
+      - tool: Screwing
+        doAfter: 5
+      - material: Uranium
+        amount: 20
+      - material: Plasma
+        amount: 20
+      - material: Gold
+        amount: 15
     - to: frame7
       completed:
       - !type:SpawnPrototype
-        prototype: SheetSteel1
-        amount: 30
+        prototype: CableHVStack1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: CableMVStack1
+        amount: 10
       steps:
-      - tool: Welding
-        doAfter: 2
+      - tool: Cutting
+        doAfter: 8
 
   - node: frame9
     actions:
@@ -652,16 +852,29 @@
     edges:
     - to: frame10
       steps:
-      - material: Steel
-        amount: 30
-        doAfter: 2
+      - tool: Anchoring
+        doAfter: 5
+      - tool: Screwing
+        doAfter: 5
+      - material: Uranium
+        amount: 20
+      - material: Plasma
+        amount: 20
+      - material: Silver
+        amount: 15
     - to: frame8
       completed:
       - !type:SpawnPrototype
-        prototype: SheetSteel1
-        amount: 30
+        prototype: SheetUranium1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: SheetPlasma1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: IngotGold1
+        amount: 15
       steps:
-      - tool: Welding
+      - tool: Prying
         doAfter: 2
 
   - node: frame10
@@ -670,16 +883,27 @@
     edges:
     - to: frame11
       steps:
-      - material: Steel
-        amount: 30
-        doAfter: 2
+      - tool: Anchoring
+        doAfter: 5
+      - tool: Screwing
+        doAfter: 5
+      - material: Uranium
+        amount: 25
+      - material: Plasma
+        amount: 25
     - to: frame9
       completed:
       - !type:SpawnPrototype
-        prototype: SheetSteel1
-        amount: 30
+        prototype: SheetUranium1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: SheetPlasma1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: IngotSilver1
+        amount: 15
       steps:
-      - tool: Welding
+      - tool: Prying
         doAfter: 2
 
   - node: frame11
@@ -688,16 +912,26 @@
     edges:
     - to: frame12
       steps:
-      - material: Steel
-        amount: 30
-        doAfter: 2
+      - tool: Anchoring
+        doAfter: 5
+      - tool: Screwing
+        doAfter: 5
+      - material: Uranium
+        amount: 20
+      - material: Plasma
+        amount: 20
+      - material: CentCommCrystal
+        amount: 10
     - to: frame10
       completed:
       - !type:SpawnPrototype
-        prototype: SheetSteel1
-        amount: 30
+        prototype: SheetUranium1
+        amount: 25
+      - !type:SpawnPrototype
+        prototype: SheetPlasma1
+        amount: 25
       steps:
-      - tool: Welding
+      - tool: Prying
         doAfter: 2
 
   - node: frame12
@@ -712,10 +946,16 @@
     - to: frame11
       completed:
       - !type:SpawnPrototype
-        prototype: SheetSteel1
-        amount: 30
+        prototype: SheetUranium1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: SheetPlasma1
+        amount: 20
+      - !type:SpawnPrototype
+        prototype: CentCommCrystal1
+        amount: 10
       steps:
-      - tool: Welding
+      - tool: Prying
         doAfter: 2
 
   - node: frame13
@@ -933,7 +1173,7 @@
         prototype: SheetSteel1
         amount: 30
       steps:
-      - tool: Welding
+      - tool: Prying
         doAfter: 2
 
   - node: cannon_west

@@ -23,6 +23,7 @@
   - MineralScannerEmpty
   - AdvancedMineralScannerEmpty
   - OreBagOfHolding
+  - WeaponLaserSvalinn #Adventure
 
 - type: latheRecipePack
   id: CargoBoards

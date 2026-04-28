@@ -134,6 +134,7 @@
   - WeaponLaserCarbine
   - WeaponXrayCannon
   - WeaponTemperatureGun
+  - WeaponLaserSvalinn #Adventure
 
 - type: latheRecipePack
   id: SecurityDisablers

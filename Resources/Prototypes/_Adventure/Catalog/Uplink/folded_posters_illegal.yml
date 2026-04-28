@@ -1,0 +1,91 @@
+- type: entityTable
+  id: IllegalPostersTable
+  table: !type:GroupSelector
+    children:
+    - id: PosterFoldedContrabandFreeTonto
+    - id: PosterFoldedContrabandAtmosiaDeclarationIndependence
+    - id: PosterFoldedContrabandFunPolice
+    - id: PosterFoldedContrabandRealExomorph
+    - id: PosterFoldedContrabandSyndicateRecruitment
+    - id: PosterFoldedContrabandClown
+    - id: PosterFoldedContrabandSmoke
+    - id: PosterFoldedContrabandGreyTide
+    - id: PosterFoldedContrabandMissingGloves
+    - id: PosterFoldedContrabandHackingGuide
+    - id: PosterFoldedContrabandAmbrosiaVulgaris
+    - id: PosterFoldedContrabandEAT
+    - id: PosterFoldedContrabandTools
+    - id: PosterFoldedContrabandPower
+    - id: PosterFoldedContrabandSpaceCube
+    - id: PosterFoldedContrabandCommunistState
+    - id: PosterFoldedContrabandLamarr
+    - id: PosterFoldedContrabandBorgFancyv2
+    - id: PosterFoldedContrabandRebelsUnite
+    - id: PosterFoldedContrabandC20r
+    - id: PosterFoldedContrabandHaveaPuff
+    - id: PosterFoldedContrabandRevolver
+    - id: PosterFoldedContrabandDDayPromo
+    - id: PosterFoldedContrabandSyndicatePistol
+    - id: PosterFoldedContrabandEnergySwords
+    - id: PosterFoldedContrabandRedRum
+    - id: PosterFoldedContrabandCC64KAd
+    - id: PosterFoldedContrabandPunchShit
+    - id: PosterFoldedContrabandTheGriffin
+    - id: PosterFoldedContrabandFreeDrone
+    - id: PosterFoldedContrabandRouny
+    - id: PosterFoldedContrabandRobustSoftdrinks
+    - id: PosterFoldedContrabandShamblersJuice
+    - id: PosterFoldedContrabandPwrGame
+    - id: PosterFoldedContrabandSunkist
+    - id: PosterFoldedContrabandSpaceCola
+    - id: PosterFoldedContrabandSpaceUp
+    - id: PosterFoldedContrabandKudzu
+    - id: PosterFoldedContrabandMaskedMen
+    - id: PosterFoldedContrabandUnreadableAnnouncement
+    - id: PosterFoldedContrabandFreeSyndicateEncryptionKey
+    - id: PosterFoldedContrabandBountyHunters
+    - id: PosterFoldedContrabandTheBigGasTruth
+    - id: PosterFoldedContrabandWehWatches
+    - id: PosterFoldedContrabandVoteWeh
+    - id: PosterFoldedContrabandBeachStarYamamoto
+    - id: PosterFoldedContrabandHighEffectEngineering
+    - id: PosterFoldedContrabandNuclearDeviceInformational
+    - id: PosterFoldedContrabandRise
+    - id: PosterFoldedContrabandRevolt
+    - id: PosterFoldedContrabandMoth
+    - id: PosterFoldedContrabandCybersun600
+    - id: PosterFoldedContrabandDonk
+    - id: PosterFoldedContrabandEnlistGorlex
+    - id: PosterFoldedContrabandInterdyne
+    - id: PosterFoldedContrabandWaffleCorp
+    - id: PosterFoldedContrabandMissingSpacepen
+    - id: PosterFoldedContrabandExoAcid
+    - id: PosterFoldedContrabandExoRun
+    - id: PosterFoldedContrabandExoChomp
+    - id: PosterFoldedContrabandERP
+    - id: PosterFoldedContrabandAdmin
+    - id: PosterFoldedContrabandNuke
+
+- type: entity
+  id: CrateSyndiePosters
+  suffix: Filled
+  parent: CrateSyndicate
+  name: набор постеров
+  description: Пропагандировать никогда не было так просто.
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: IllegalPostersTable
+        rolls: !type:ConstantNumberSelector
+          value: 6
+
+- type: listing
+  id: UplinkSyndiePosters
+  name: Набор постеров
+  description: Набор из 6 случайных постеров с нелегальной пропагандой и/или несертифицированной рекламой.
+  productEntity: CrateSyndiePosters
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkPointless

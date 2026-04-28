@@ -1,0 +1,9 @@
+- type: cargoProduct
+  id: FoldedPosters
+  icon:
+    sprite: _Adventure/Objects/Fun/folded_poster.rsi
+    state: icon
+  product: CratePosters
+  cost: 1250
+  category: cargoproduct-category-name-fun
+  group: market

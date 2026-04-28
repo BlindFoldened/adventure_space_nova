@@ -37,6 +37,7 @@
       params:
         variation: 0.125
         volume: -5
+    onActivate: false #Adventure
   - type: ItemToggleActiveSound
     activeSound:
       path: /Audio/_Adventure/Weapon/Melee/fuelswords/welderhum.ogg

@@ -1,0 +1,9 @@
+- type: cargoProduct
+  id: Floodlight
+  icon:
+    sprite: Objects/Misc/Lights/lights.rsi
+    state: floodlight
+  product: ADVCrateEngineeringFloodlight
+  cost: 1250
+  category: cargoproduct-category-name-engineering
+  group: market

@@ -1,7 +1,7 @@
 - type: marking
   id: PawSocks
   markingCategory: Overlay
-  bodyPart: RFoot #highest possible layer
+  bodyPart: RHand #highest possible layer
   speciesRestriction: [Vulpkanin]
   sprites:
     - sprite: _Corvax/Mobs/Customization/vulpkanin.rsi

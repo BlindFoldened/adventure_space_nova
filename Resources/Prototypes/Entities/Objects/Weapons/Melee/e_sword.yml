@@ -9,6 +9,7 @@
       path: /Audio/Weapons/ebladeon.ogg
     soundDeactivate:
       path: /Audio/Weapons/ebladeoff.ogg
+    onActivate: false #Adventure
   - type: ItemToggleActiveSound
     activeSound:
       path: /Audio/Weapons/ebladehum.ogg
@@ -173,6 +174,7 @@
       path: /Audio/Weapons/ebladeoff.ogg
       params:
         volume: -6
+    onActivate: false #Adventure
   - type: ItemToggleActiveSound
     activeSound:
       path: /Audio/Weapons/ebladehum.ogg

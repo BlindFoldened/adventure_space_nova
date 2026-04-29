@@ -161,6 +161,8 @@
   - type: Appearance
   - type: TypingIndicator
     proto: robot
+  - type: TTS # Adventure
+    voice: glados # Adventure
   - type: Speech
     speechVerb: Robotic
     speechSounds: Borg

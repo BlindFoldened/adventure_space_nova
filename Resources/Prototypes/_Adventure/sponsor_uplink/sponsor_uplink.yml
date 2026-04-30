@@ -845,16 +845,16 @@
 #   - !type:ListingLimitedStockCondition
 #    stock: 2
 
-- type: listing
-  id: UplinkSponsorCloth80
-  productEntity: DarkBunnyBackpackGroup
-  cost:
-    DonateCrystal: 15
-  categories:
-  - SponsorThing
-  conditions:
-  - !type:ListingLimitedStockCondition
-   stock: 2
+# - type: listing
+#   id: UplinkSponsorCloth80
+#   productEntity: DarkBunnyBackpackGroup
+#   cost:
+#     DonateCrystal: 15
+#   categories:
+#   - SponsorThing
+#   conditions:
+#   - !type:ListingLimitedStockCondition
+#    stock: 2
 
 # - type: listing
 #   id: UplinkSponsorCloth81

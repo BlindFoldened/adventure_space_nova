@@ -119,6 +119,7 @@
 
 - type: entity
   parent: BaseBluespaceArtilleryFrame
+  categories: [ HideSpawnMenu ]
   id: BluespaceArtilleryFrame
   components:
   - type: Construction
@@ -129,6 +130,7 @@
 
 - type: entity
   parent: BaseBluespaceArtilleryFrameFlipped
+  categories: [ HideSpawnMenu ]
   id: BluespaceArtilleryFrameFlipped
   components:
   - type: Construction

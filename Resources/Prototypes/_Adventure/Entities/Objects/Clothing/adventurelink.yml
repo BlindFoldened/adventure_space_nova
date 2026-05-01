@@ -488,7 +488,7 @@
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesAlt
   name: перчатки альтушки
-  description: Хорошая работа руками, никому не мешала.
+  description: Подходят для того, чтобы закрыться руками от тех, кому не дано вас понять.
   components:
   - type: Sprite
     sprite: _Adventure/sponsor_uplink/alt/gloves.rsi

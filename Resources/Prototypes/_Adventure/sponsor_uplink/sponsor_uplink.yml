@@ -65,7 +65,7 @@
 
 - type: storeCategory
   id: SponsorNTGlory
-  name: Гордость НТ
+  name: Зал славы
 
 #conditions:
 #  - !type:BuyerJobCondition
@@ -684,27 +684,27 @@
   - !type:ListingLimitedStockCondition
    stock: 1
 
-- type: listing
-  id: UplinkSponsorCloth64
-  productEntity: ClothPantsExpensive
-  cost:
-    DonateCrystal: 5
-  categories:
-  - SponsorThings
-  conditions:
-  - !type:ListingLimitedStockCondition
-   stock: 1
+# - type: listing
+#   id: UplinkSponsorCloth64
+#   productEntity: ClothPantsExpensive
+#   cost:
+#     DonateCrystal: 5
+#   categories:
+#   - SponsorThings
+#   conditions:
+#   - !type:ListingLimitedStockCondition
+#    stock: 1
 
-- type: listing
-  id: UplinkSponsorCloth65
-  productEntity: ClothingBrassExpensive
-  cost:
-    DonateCrystal: 5
-  categories:
-  - SponsorThings
-  conditions:
-  - !type:ListingLimitedStockCondition
-   stock: 1
+# - type: listing
+#   id: UplinkSponsorCloth65
+#   productEntity: ClothingBrassExpensive
+#   cost:
+#     DonateCrystal: 5
+#   categories:
+#   - SponsorThings
+#   conditions:
+#   - !type:ListingLimitedStockCondition
+#    stock: 1
 
 - type: listing
   id: UplinkSponsorCloth66
@@ -834,71 +834,71 @@
   categories:
   - SponsorThings
 
-- type: listing
-  id: UplinkSponsorCloth79
-  productEntity: BunnyBackpackGroup
-  cost:
-    DonateCrystal: 10
-  categories:
-  - SponsorThing
-  conditions:
-  - !type:ListingLimitedStockCondition
-   stock: 2
+# - type: listing
+#   id: UplinkSponsorCloth79
+#   productEntity: BunnyBackpackGroup
+#   cost:
+#     DonateCrystal: 10
+#   categories:
+#   - SponsorThing
+#   conditions:
+#   - !type:ListingLimitedStockCondition
+#    stock: 2
 
-- type: listing
-  id: UplinkSponsorCloth80
-  productEntity: DarkBunnyBackpackGroup
-  cost:
-    DonateCrystal: 15
-  categories:
-  - SponsorThing
-  conditions:
-  - !type:ListingLimitedStockCondition
-   stock: 2
+# - type: listing
+#   id: UplinkSponsorCloth80
+#   productEntity: DarkBunnyBackpackGroup
+#   cost:
+#     DonateCrystal: 15
+#   categories:
+#   - SponsorThing
+#   conditions:
+#   - !type:ListingLimitedStockCondition
+#    stock: 2
 
-- type: listing
-  id: UplinkSponsorCloth81
-  productEntity: RedBunnyBackpackGroup
-  cost:
-    DonateCrystal: 15
-  categories:
-  - SponsorThing
-  conditions:
-  - !type:ListingLimitedStockCondition
-   stock: 2
+# - type: listing
+#   id: UplinkSponsorCloth81
+#   productEntity: RedBunnyBackpackGroup
+#   cost:
+#     DonateCrystal: 15
+#   categories:
+#   - SponsorThing
+#   conditions:
+#   - !type:ListingLimitedStockCondition
+#    stock: 2
 
-- type: listing
-  id: UplinkSponsorCloth82
-  productEntity: NoFaceBackpackGroup
-  cost:
-    DonateCrystal: 15
-  categories:
-  - SponsorThing
-  conditions:
-  - !type:ListingLimitedStockCondition
-   stock: 2
+# - type: listing
+#   id: UplinkSponsorCloth82
+#   productEntity: NoFaceBackpackGroup
+#   cost:
+#     DonateCrystal: 15
+#   categories:
+#   - SponsorThing
+#   conditions:
+#   - !type:ListingLimitedStockCondition
+#    stock: 2
 
-- type: listing
-  id: UplinkSponsorCloth83
-  productEntity: WhiteCowBackpackGroup
-  cost:
-    DonateCrystal: 15
-  categories:
-  - SponsorThing
-  conditions:
-  - !type:ListingLimitedStockCondition
-   stock: 2
+# - type: listing
+#   id: UplinkSponsorCloth83
+#   productEntity: WhiteCowBackpackGroup
+#   cost:
+#     DonateCrystal: 15
+#   categories:
+#   - SponsorThing
+#   conditions:
+#   - !type:ListingLimitedStockCondition
+#    stock: 2
 
-- type: listing
-  id: UplinkSponsorCloth84
-  productEntity: BlackCowBackpackGroup
-  cost:
-    DonateCrystal: 15
-  categories:
-  - SponsorThing
-  conditions:
-  - !type:ListingLimitedStockCondition
-   stock: 2
+# - type: listing
+#   id: UplinkSponsorCloth84
+#   productEntity: BlackCowBackpackGroup
+#   cost:
+#     DonateCrystal: 15
+#   categories:
+#   - SponsorThing
+#   conditions:
+#   - !type:ListingLimitedStockCondition
+#    stock: 2
 
 - type: listing
   id: UplinkSponsorCloth85
@@ -1219,3 +1219,4 @@
 #Siginanto / last upd 17/02/25
 #Connection / last upd 21/10/25
 #Brg / last upd 11/04/26
+#Blind / last upd 31/04/26

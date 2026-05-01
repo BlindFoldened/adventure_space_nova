@@ -1,0 +1,52 @@
+- type: entity
+  id: SyndieUniformPrinterMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: принтер униформы Синдиката (машинная плата)
+  components:
+  - type: MachineBoard
+    prototype: SyndieUniformPrinter
+    stackRequirements:
+      Manipulator: 3
+
+- type: latheRecipePack
+  id: ClothingTaipan
+  recipes:
+  - ClothingUniformJumpsuitCargotechTaipan
+  - ClothingUniformJumpsuitChefTaipan
+  - ClothingUniformJumpsuitDoctorTaipanTurtle
+  - ClothingUniformJumpsuitRDTaipan
+  - ClothingHeadHatBeretRNDTaipan
+  - ClothingUniformJumpsuitScientistTaipan
+  - ClothingHeadHatCapTO
+  - ClothingUniformJumpsuitTO
+
+- type: entity
+  parent: UniformPrinter
+  id: SyndieUniformPrinter
+  name: принтер униформы Синдиката
+  description: Печать новой или запасной униформы плохих парней.
+  components:
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    sprite: _Adventure/Objects/Machines/syndie_uniform_printer.rsi
+    snapCardinals: false
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+  - type: Machine
+    board: SyndieUniformPrinterMachineCircuitboard
+  - type: Lathe
+    producingSound: /Audio/Machines/uniformprinter.ogg
+    idleState: icon
+    runningState: building
+    staticPacks:
+    - TowelsStatic
+    - Ties
+    - Scarves
+    - Carpets
+    - ClothingSyndie
+    - ClothingTaipan
+  - type: EmagLatheRecipes
+    emagStaticPacks:
+    - ClothingCentComm

@@ -1,0 +1,467 @@
+- type: entity
+  id: SyndicateTechFabCircuitboard
+  parent: BaseMachineCircuitboard
+  name: Техфаб Синдиката (машинная плата)
+  description: Печатная плата техфаба Синдиката.
+  components:
+    - type: MachineBoard
+      prototype: SyndicateTechFab
+      stackRequirements:
+        Manipulator: 4
+        Glass: 1
+
+- type: entity
+  id: SyndicateTechFab
+  parent: BaseLatheLube
+  name: Техфаб Синдиката
+  description: Хранит библиотеку нелегальных технологий и некоторые базовые вещи. Имеет возможность обрабатывать нечестно полученные чертежи для печати по новым рецептам.
+  components:
+  - type: Sprite
+    sprite: _Adventure/Objects/Machines/syndie_techfab.rsi
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: plating
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: SyndicateTechFabCircuitboard
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot
+  - type: OreSiloClient
+  - type: Lathe
+    idleState: icon
+    runningState: icon
+    staticPacks:
+    - TaipanStatic
+  - type: EmagLatheRecipes
+    emagStaticPacks:
+    - SecurityAmmoStatic
+    - SyndicateAmmoStatic
+  - type: BlueprintReceiver
+    whitelist:
+      tags:
+      - BlueprintSyndielathe
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      blueprint: !type:Container
+  - type: EmptyOnMachineDeconstruct
+    containers:
+    - blueprint
+
+- type: latheRecipe
+  id: TowelColorSyndicate
+  result: TowelColorSyndicate
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingHandsKnuckleDustersSyndicate
+  result: ClothingHandsKnuckleDustersSyndicate
+  completetime: 5
+  materials:
+    Plasteel: 600
+
+- type: latheRecipe
+  id: ThrowingKnife
+  result: ThrowingKnife
+  completetime: 2
+  materials:
+    Plasteel: 250
+    Plastic: 100
+
+- type: latheRecipe
+  id: BorgModuleMartyr
+  result: BorgModuleMartyr
+  materials:
+    Steel: 500
+    Glass: 500
+    Plastic: 250
+    Gold: 50
+
+- type: latheRecipe
+  id: BorgModuleSyndicateWeapon
+  result: BorgModuleSyndicateWeapon
+  materials:
+    Steel: 500
+    Glass: 500
+    Plastic: 250
+    Gold: 50
+
+- type: latheRecipe
+  id: IPCModulSyndieNuker
+  result: IPCModulSyndieNuker
+  materials:
+    Steel: 250
+    Glass: 250
+    Plastic: 250
+    Gold: 50
+
+- type: latheRecipe
+  id: IPCModulSyndieShield
+  result: IPCModulSyndieShield
+  materials:
+    Steel: 500
+    Glass: 500
+    Plasma: 250
+    Gold: 500
+
+- type: latheRecipe
+  id: ClothingShoesBootsMagSyndie
+  result: ClothingShoesBootsMagSyndie
+  materials:
+    Steel: 1200
+    Plastic: 500
+    Gold: 100
+    Plasma: 200
+
+- type: latheRecipe
+  id: SyndicateBusinessCard
+  result: SyndicateBusinessCard
+  materials:
+    Cloth: 200
+
+- type: latheRecipe
+  id: NukeDiskFake
+  result: NukeDiskFake
+  materials:
+    Plastic: 400
+
+- type: latheRecipe
+  id: SyndicateJawsOfLife
+  result: SyndicateJawsOfLife
+  materials:
+    Steel: 1000
+    Glass: 500
+    Plasma: 800
+    Gold: 250
+
+- type: latheRecipe
+  id: ClothingMaskGasSyndicate
+  result: ClothingMaskGasSyndicate
+  materials:
+    Steel: 600
+    Glass: 200
+    Plasma: 200
+
+- type: latheRecipe
+  id: RadioJammer
+  result: RadioJammer
+  materials:
+    Steel: 600
+    Gold: 250
+
+- type: latheRecipe
+  id: GrenadeDummy
+  result: GrenadeDummy
+  materials:
+    Steel: 500
+    Plastic: 400
+
+- type: latheRecipe
+  id: SyndieTrickyBomb
+  result: SyndieTrickyBomb
+  materials:
+    Steel: 600
+    Plastic: 500
+
+- type: latheRecipe
+  id: BalloonOperative
+  result: BalloonOperative
+  materials:
+    Steel: 300
+    Glass: 500
+    Plastic: 400
+    Gold: 50
+    Cloth: 800
+
+- type: latheRecipe
+  id: BalloonAgent
+  result: BalloonAgent
+  materials:
+    Steel: 300
+    Glass: 500
+    Plastic: 400
+    Gold: 50
+    Cloth: 800
+
+- type: latheRecipe
+  id: BalloonElite
+  result: BalloonElite
+  materials:
+    Steel: 300
+    Glass: 500
+    Plastic: 400
+    Gold: 50
+    Cloth: 800
+
+- type: latheRecipe
+  id: BalloonJuggernaut
+  result: BalloonJuggernaut
+  materials:
+    Steel: 300
+    Glass: 500
+    Plastic: 400
+    Gold: 50
+    Cloth: 800
+
+- type: latheRecipe
+  id: BalloonCommander
+  result: BalloonCommander
+  materials:
+    Steel: 300
+    Glass: 500
+    Plastic: 400
+    Gold: 50
+    Cloth: 800
+
+- type: latheRecipe
+  id: ClothingEyesHudSyndicate
+  result: ClothingEyesHudSyndicate
+  materials:
+    Steel: 300
+    Glass: 200
+
+- type: latheRecipe
+  id: ClothingEyesHudSyndicateAgent
+  result: ClothingEyesHudSyndicateAgent
+  materials:
+    Steel: 200
+    Glass: 300
+    Plastic: 500
+
+- type: latheRecipePack
+  id: TaipanStatic
+  recipes:
+  - TowelColorSyndicate
+  - ClothingHandsKnuckleDustersSyndicate
+  - ThrowingKnife
+  - BorgModuleMartyr
+  - BorgModuleSyndicateWeapon
+  - IPCModulSyndieNuker
+  - IPCModulSyndieShield
+  - ClothingShoesBootsMagSyndie
+  - SyndicateBusinessCard
+  - NukeDiskFake
+  - SyndicateJawsOfLife
+  - ClothingMaskGasSyndicate
+  - RadioJammer
+  - GrenadeDummy
+  - SyndieTrickyBomb
+  - BalloonOperative
+  - BalloonAgent
+  - BalloonElite
+  - BalloonJuggernaut
+  - BalloonCommander
+  - ClothingEyesHudSyndicate
+  - ClothingEyesHudSyndicateAgent
+
+- type: entity
+  parent: [ BaseBlueprint, BaseSyndicateContraband ]
+  id: BaseRedprint
+  name: redprint
+  description: A blueprint with a schematic of a fulton. It can be inserted into a syndielathe.
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - BlueprintSyndielathe
+  - type: StaticPrice
+    price: 15000
+
+- type: entity
+  parent: BaseRedprint
+  id: RedprintEnergyDagger
+  name: чертёж базового энергетического кинжала
+  description: Чертёж со схемой базового энергетического кинжала. Его можно поместить в техфаб Синдиката.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - EnergyDaggerBox
+    - EnergyDaggerLoud
+
+- type: latheRecipe
+  id: EnergyDaggerBox
+  result: EnergyDaggerBox
+  materials:
+    Plasteel: 250
+    Steel: 400
+    Plasma: 600
+
+- type: latheRecipe
+  id: EnergyDaggerLoud
+  result: EnergyDaggerLoud
+  materials:
+    Plasteel: 150
+    Steel: 300
+    Plasma: 600
+
+- type: entity
+  parent: BaseRedprint
+  id: RedprintEnergySword
+  name: чертёж энергетического меча и щита
+  description: Чертёж со схемой полноценного энергетического меча и щита. Его можно поместить в техфаб Синдиката.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - EnergySword
+    - EnergyShield
+
+- type: latheRecipe
+  id: EnergySword
+  result: EnergySword
+  materials:
+    Plasteel: 400
+    Steel: 800
+    Plasma: 1500
+
+- type: latheRecipe
+  id: EnergyShield
+  result: EnergyShield
+  materials:
+    Plasteel: 400
+    Steel: 800
+    Plasma: 1500
+
+- type: entity
+  parent: BaseRedprint
+  id: RedprintDefibrillatorSyndicate
+  name: чертёж дефибриллятора Interdyne
+  description: Чертёж со схемой дефибриллятора Interdyne. Его можно поместить в техфаб Синдиката.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - DefibrillatorSyndicate
+
+- type: latheRecipe
+  id: DefibrillatorSyndicate
+  result: DefibrillatorSyndicate
+  materials:
+    Steel: 300
+    Plasma: 500
+
+- type: entity
+  parent: BaseRedprint
+  id: RedprintC4
+  name: чертёж взрывчатки C-4
+  description: Чертёж со схемой взрывчатки C-4. Его можно поместить в техфаб Синдиката.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - C4
+
+- type: latheRecipe
+  id: C4
+  result: C4
+  materials:
+    Plastic: 1500
+    Plasteel: 500
+    Silver: 200
+
+- type: entity
+  parent: BaseRedprint
+  id: RedprintSyndieMiniBomb
+  name: чертёж минибомбы Синдиката
+  description: Чертёж со схемой минибомбы Синдиката. Его можно поместить в техфаб Синдиката.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - SyndieMiniBomb
+
+- type: latheRecipe
+  id: SyndieMiniBomb
+  result: SyndieMiniBomb
+  materials:
+    Plastic: 1500
+    Plasteel: 500
+    Silver: 400
+
+- type: entity
+  parent: BaseRedprint
+  id: RedprintEmag
+  name: чертёж криптографического секвенсора
+  description: Чертёж со схемой криптографического секвенсора. Его можно поместить в техфаб Синдиката.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - Emag
+
+- type: latheRecipe
+  id: Emag
+  result: Emag
+  materials:
+    Steel: 500
+    Glass: 400
+    Gold: 100
+
+- type: entity
+  parent: BaseRedprint
+  id: RedprintAccessBreaker
+  name: чертёж разрушителя аутентификации
+  description: Чертёж со схемой разрушителя аутентификации. Его можно поместить в техфаб Синдиката.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - AccessBreaker
+
+- type: latheRecipe
+  id: AccessBreaker
+  result: AccessBreaker
+  materials:
+    Steel: 500
+    Glass: 400
+    Silver: 100
+
+- type: entity
+  parent: BaseRedprint
+  id: RedprintHypopenBox
+  name: чертёж гипоручки и гиподротика
+  description: Чертёж со схемой гипоручки и гиподротика. Его можно поместить в техфаб Синдиката.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - HypopenBox
+    - HypoDartBox
+
+- type: latheRecipe
+  id: HypopenBox
+  result: HypopenBox
+  materials:
+    Steel: 300
+    Plastic: 200
+
+- type: latheRecipe
+  id: HypoDartBox
+  result: HypoDartBox
+  materials:
+    Steel: 200
+    Plastic: 50
+
+- type: entity
+  parent: BaseRedprint
+  id: RedprintSyndiHypo
+  name: чертёж гипоспрея Gorlex
+  description: Чертёж со схемой гипоспрея Gorlex. Его можно поместить в техфаб Синдиката.
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - SyndiHypo
+
+- type: latheRecipe
+  id: SyndiHypo
+  result: SyndiHypo
+  materials:
+    Steel: 400
+    Plastic: 500
+    Glass: 600
